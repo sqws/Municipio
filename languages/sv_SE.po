@@ -1,0 +1,4069 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Municipio\n"
+"POT-Creation-Date: 2017-09-01 15:47+0200\n"
+"PO-Revision-Date: 2017-09-01 15:49+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: library/AcfFields/php/options-page-display.php:10
+msgid "Show featured image in single template"
+msgstr "Visa utvald bild i singel-template"
+
+#: library/AcfFields/php/options-page-display.php:15
+#: library/AcfFields/php/options-theme-search-result.php:11
+msgid "Featured image"
+msgstr "Utvald bild"
+
+#: library/AcfFields/php/options-page-display.php:29
+msgid "Show social media share buttons"
+msgstr "Visa delningsknappar"
+
+#: library/AcfFields/php/options-page-display.php:34
+msgid "Share"
+msgstr "Dela"
+
+#: library/AcfFields/php/options-page-display.php:48
+#: library/AcfFields/php/options-theme-author.php:15
+msgid "Show author"
+msgstr "Visa författare"
+
+#: library/AcfFields/php/options-page-display.php:53
+#: library/Admin/Options/Archives.php:34
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:104
+msgid "Author"
+msgstr "Författare"
+
+#: library/AcfFields/php/options-page-display.php:67
+msgid "Show author's image"
+msgstr "Visa författarens bild"
+
+#: library/AcfFields/php/options-page-display.php:72
+msgid "Author image"
+msgstr "Bild på författare"
+
+#: library/AcfFields/php/options-page-navigation.php:10
+msgid "Hide"
+msgstr "Dölj"
+
+#: library/AcfFields/php/options-page-navigation.php:15
+msgid "Hide from sidebar menu"
+msgstr "Dölj från sidebar-menyn"
+
+#: library/AcfFields/php/options-page-navigation.php:34
+msgid "Menu title"
+msgstr "Menytitel"
+
+#: library/AcfFields/php/options-page-navigation.php:37
+msgid ""
+"If you want to use another title for this page in the sidebar navigation "
+"fill it in here. If you want to use the page title just leave this field "
+"empty."
+msgstr ""
+"Om du vill använda en annan titel för denna sidan i menyn, fyll i den här. "
+"Om du vill använda den vanliga sidtiteln så lämnar du detta fältet tomt."
+
+#: library/AcfFields/php/options-theme-404.php:11
+#: library/AcfFields/php/options-theme-footer-logotype.php:11
+#: library/AcfFields/php/options-theme-header-logotype.php:11
+msgid "Standard"
+msgstr "Standard"
+
+#: library/AcfFields/php/options-theme-404.php:12
+#: library/AcfFields/php/options-theme-footer-logotype.php:12
+#: library/AcfFields/php/options-theme-header-logotype.php:12
+msgid "Negative"
+msgstr "Negativ"
+
+#: library/AcfFields/php/options-theme-404.php:20
+msgid "Logotype"
+msgstr "Logotyp"
+
+#: library/AcfFields/php/options-theme-404.php:39
+msgid "Error message"
+msgstr "Felmeddelande"
+
+#: library/AcfFields/php/options-theme-404.php:42
+msgid "The message that will be displayed underneeth the 404-error code"
+msgstr "Meddelandet kommer att visas under 404-felkoden"
+
+#: library/AcfFields/php/options-theme-404.php:60
+msgid "Error info"
+msgstr "Felinformation"
+
+#: library/AcfFields/php/options-theme-404.php:63
+msgid "Additional information about the error or other information"
+msgstr "Utökada information om felet"
+
+#: library/AcfFields/php/options-theme-404.php:75
+msgid "Link to home"
+msgstr "Länk till startsidan"
+
+#: library/AcfFields/php/options-theme-404.php:76
+msgid "Link to search"
+msgstr "Länk till sök"
+
+#: library/AcfFields/php/options-theme-404.php:77
+msgid "Back button (previous page in browser history)"
+msgstr "Tillbaka-knapp (bakåt i webbläsarens historik)"
+
+#: library/AcfFields/php/options-theme-404.php:86
+msgid "Display"
+msgstr "Visa"
+
+#: library/AcfFields/php/options-theme-404.php:105
+msgid "Home link text"
+msgstr "Text på hemknapp"
+
+#: library/AcfFields/php/options-theme-404.php:134
+msgid "Back button text"
+msgstr "Text på tillbaka-knapp"
+
+#: library/AcfFields/php/options-theme-404.php:163
+msgid "Search link text"
+msgstr "Text på sök-knapp"
+
+#: library/AcfFields/php/options-theme-404.php:166
+#, php-format
+msgid "Use %s to output suggested search query"
+msgstr "Använd %s för att skriva ut föreslagen sökfras"
+
+#: library/AcfFields/php/options-theme-author.php:10
+#: library/AcfFields/php/options-theme-author.php:29
+#: library/AcfFields/php/options-theme-author.php:48
+#: library/AcfFields/php/options-theme-google-translate.php:96
+#: library/AcfFields/php/options-theme-scroll-elevator.php:32
+#: library/AcfFields/php/options-theme-search.php:15
+#: library/AcfFields/php/options-theme-share.php:10
+msgid "Enable"
+msgstr "Aktivera"
+
+#: library/AcfFields/php/options-theme-author.php:34
+msgid "Show author image"
+msgstr "Visa bild på författare"
+
+#: library/AcfFields/php/options-theme-author.php:53
+msgid "Link name to author archive"
+msgstr "Länka namn till arkivet för författaren"
+
+#: library/AcfFields/php/options-theme-cookie-consent.php:10
+msgid "Show cookie consent to users if not already accepted"
+msgstr "Visa cookie-medgivande för nya användare"
+
+#: library/AcfFields/php/options-theme-cookie-consent.php:15
+msgid "Active"
+msgstr "Aktivera"
+
+#: library/AcfFields/php/options-theme-cookie-consent.php:34
+#: vendor/advanced-custom-fields/core/fields/message.php:19
+#: vendor/advanced-custom-fields/core/fields/message.php:70
+#: vendor/advanced-custom-fields/core/fields/true_false.php:79
+msgid "Message"
+msgstr "Meddelande"
+
+#: library/AcfFields/php/options-theme-cookie-consent.php:61
+msgid "Button"
+msgstr "Knapp"
+
+#: library/AcfFields/php/options-theme-cookie-consent.php:86
+msgid "At the top of the page"
+msgstr "Toppen av sidan"
+
+#: library/AcfFields/php/options-theme-cookie-consent.php:87
+msgid "Fixed to bottom of window"
+msgstr "Fixerad till botten av fönstret"
+
+#: library/AcfFields/php/options-theme-cookie-consent.php:95
+msgid "Placement"
+msgstr "Placering"
+
+#: library/AcfFields/php/options-theme-custom-css.php:15
+msgid "CSS input"
+msgstr "Css"
+
+#: library/AcfFields/php/options-theme-custom-css.php:18
+msgid ""
+"Enter your CSS-code here. It will be wrapped with \"style\" tags, and "
+"included on all pages."
+msgstr ""
+"Skriv in din css-kod här. Den kommer att wrappas med \\”style\\” taggar och "
+"inkluderas på samtliga sidor."
+
+#: library/AcfFields/php/options-theme-custom-js.php:15
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: library/AcfFields/php/options-theme-custom-js.php:18
+msgid ""
+"Enter your JS-code here. It will be wrapped with \"script\" tags and "
+"included on all pages."
+msgstr ""
+"Skriv in din css-kod här. Den kommer att wrappas med \\”style\\” taggar och "
+"inkluderas på samtliga sidor."
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:17
+msgid "Post type name"
+msgstr "Inläggstypens namn"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:20
+msgid ""
+"<span style=\"color: #ff0000;\">Will generate the post type name, select a "
+"name with care! Cannot be changed! </span>"
+msgstr ""
+"<span style=\"color: #ff0000;\">Välj namn med omsorg. Namnet går inte att "
+"ändra.</span>"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:36
+msgid "Permalänk"
+msgstr "Permalänk"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:39
+msgid "Public /url/ to show archive on."
+msgstr "Offentlig /url/ att visa arkivet på"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:52
+msgid "Prefix slug with blog front"
+msgstr "Lägg bloggfront framför slug"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:57
+msgid "Rewrite with front"
+msgstr "Skriv om med front"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:60
+msgid "Check if you would like to prefix the slug with blogfront"
+msgstr "Bocka i om du vill prefixa slugen med blogfront (exempel /blog/slug)"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:81
+msgid "Menu icon"
+msgstr "Menyikon"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:97
+msgid "Below Posts"
+msgstr "Under inlägg"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:98
+msgid "Below Media"
+msgstr "Under media"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:99
+msgid "Below Links"
+msgstr "Under länkar"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:100
+msgid "Below Pages"
+msgstr "Under sidor"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:101
+msgid "Below comments"
+msgstr "Under kommentarer"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:102
+msgid "Below first separator"
+msgstr "Under första avgränsningen"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:103
+msgid "Below Plugins"
+msgstr "Under plugin"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:104
+msgid "Below Users"
+msgstr "Under användare"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:105
+msgid "Below Tools"
+msgstr "Under verktyg"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:106
+msgid "Below Settings"
+msgstr "Under inställningar"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:107
+msgid "Below second separator"
+msgstr "Under andra avgränsningen"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:117
+msgid "Menu position"
+msgstr "Menyposition"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:120
+msgid "Select where to place this custom post type admin section."
+msgstr "Välj var inläggstypen ska ligga i amdinistrationsmenyn"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:133
+msgid "Controls how the type is visible to authors"
+msgstr "Kontrollerar inläggstypens tillgänglighet"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:138
+msgid "Public?"
+msgstr "Publik?"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:152
+msgid ""
+"Whether to exclude posts with this post type from front end search results."
+msgstr "Om inläggstypen ska exkluderas från sökresultat"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:157
+msgid "Exclude from search?"
+msgstr "Exkludera från sökresultat"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:171
+msgid "Make post type available for selection in navigation menus."
+msgstr "Tillåt inläggstypen att kunna visas i menyer."
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:176
+msgid "Avabile in nav menus?"
+msgstr "Tillgänglig i menyer"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:190
+msgid ""
+"Whether the post type is hierarchical (e.g. page). Allows Parent to be "
+"specified."
+msgstr ""
+"Om inläggstypen är hierarkisk. Tillåter parent/child förhållande mellan "
+"inlägg."
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:195
+msgid "Hierarchical"
+msgstr "Hierarkisk"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:209
+msgid "Show posts in sidebar menu (only ofr automatically generated menus)"
+msgstr "Visa inlägg i sidebar-meny (bara för automatiskt genererade menyer)"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:214
+#: library/Admin/Options/Theme.php:28 library/Admin/Options/Theme.php:29
+msgid "Navigation"
+msgstr "Navigering"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:237
+#: library/Admin/Options/Theme.php:100 library/Admin/Options/Theme.php:101
+msgid "Content editor"
+msgstr "Innehållsförfattare"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:238
+msgid "Author Select"
+msgstr "Val av författare"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:239
+#: vendor/advanced-custom-fields/core/fields/relationship.php:653
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:106
+msgid "Featured Image"
+msgstr "Utvald bild"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:240
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:98
+msgid "Excerpt"
+msgstr "Ingress"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:241
+msgid "Trackbacks"
+msgstr "Trackbacks"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:242
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:101
+#: views/partials/blog/post-info.blade.php:36
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:243
+msgid "Page Attributes"
+msgstr "Sidattribut"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:244
+msgid "Post Formats"
+msgstr "Inläggsformat"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:245
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:102
+msgid "Revisions"
+msgstr "Versioner"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:254
+msgid "Post type functions"
+msgstr "Funktioner för inläggstypen"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:270
+msgid "Add post type"
+msgstr "Lägg till inläggstyp"
+
+#: library/AcfFields/php/options-theme-custom-post-type.php:273
+msgid "Available post types"
+msgstr "Tillgängliga inläggstyper"
+
+#: library/AcfFields/php/options-theme-editor-formats.php:103
+msgid "Formats"
+msgstr "Inläggsformat"
+
+#: library/AcfFields/php/options-theme-editor-formats.php:106
+msgid "Check the formats you would like to enable"
+msgstr "Välj de format som du vill aktivera"
+
+#: library/AcfFields/php/options-theme-favicon.php:25
+msgid "Type"
+msgstr "Typ"
+
+#: library/AcfFields/php/options-theme-favicon.php:51
+msgid "Icon 152x152"
+msgstr "Ikon 152x152"
+
+#: library/AcfFields/php/options-theme-favicon.php:54
+msgid "Must be 152x152 pixels .png"
+msgstr "Måste vara 152x152 pixlar och format .png"
+
+#: library/AcfFields/php/options-theme-favicon.php:83
+msgid "Icon 144x144"
+msgstr "Ikon 144x144"
+
+#: library/AcfFields/php/options-theme-favicon.php:86
+msgid "Must be 144x144 pixels .png"
+msgstr "Måste vara 144x144 pixlar och format .png"
+
+#: library/AcfFields/php/options-theme-favicon.php:110
+msgid "Favicon.ico"
+msgstr "Favicon.ico"
+
+#: library/AcfFields/php/options-theme-favicon.php:113
+msgid "Must be a .ico containing 16x16px, 32x32px and 48x48px"
+msgstr "Måste vara en .ico innehållandes 16x16px, 32x32px and 48x48px"
+
+#: library/AcfFields/php/options-theme-favicon.php:142
+#: library/AcfFields/php/options-theme-footer-icons.php:625
+#: library/AcfFields/php/options-theme-google-translate.php:73
+msgid "Icon"
+msgstr "Ikon"
+
+#: library/AcfFields/php/options-theme-favicon.php:175
+msgid "Metro tile color"
+msgstr "Bakgrundsfärg på Metro-bricka"
+
+#: library/AcfFields/php/options-theme-favicon.php:199
+#: library/AcfFields/php/widget-contact.php:116
+msgid "Lägg till rad"
+msgstr "Lägg till rad"
+
+#: library/AcfFields/php/options-theme-favicon.php:202
+msgid "Favicons"
+msgstr "Favoritikoner"
+
+#: library/AcfFields/php/options-theme-favicon.php:205
+msgid ""
+"Add favicons in various sizes. If a size has multiple icons specified only "
+"the latest specified icon will be used."
+msgstr ""
+"Lägg till favoritikoner i olika storlekar. Om en storlek har multipla värden "
+"kommer bara den senast specificerade att användas."
+
+#: library/AcfFields/php/options-theme-footer-icons.php:644
+msgid "Titel"
+msgstr "Titel"
+
+#: library/AcfFields/php/options-theme-footer-icons.php:660
+msgid "Enter a    url with the format http://example.com"
+msgstr "Ange en url med format: http://exempel.se"
+
+#: library/AcfFields/php/options-theme-footer-icons.php:662
+#: library/AcfFields/php/options-theme-search-result.php:14
+msgid "Url"
+msgstr "Url"
+
+#: library/AcfFields/php/options-theme-footer-icons.php:678
+msgid "Add icon"
+msgstr "Lägg till ikon"
+
+#: library/AcfFields/php/options-theme-footer-icons.php:681
+msgid "Footer icons repeater"
+msgstr "Ikoner i sidfoten"
+
+#: library/AcfFields/php/options-theme-footer-icons.php:684
+msgid ""
+"Add icons to the footer of your site. Link to external resources link "
+"facebook, twitter and linkedin! <style>.acf-field-font-awesome .fa-live-"
+"preview {display:none;}</style>"
+msgstr ""
+"Lägg till ikoner i sidfoten. Länka till externa resurser som till exempel "
+"Facebook, Twitter och LinkedIn.<style>.acf-field-font-awesome .fa-live-"
+"preview {display:none;}</style>"
+
+#: library/AcfFields/php/options-theme-footer-layout.php:12
+msgid "Default style"
+msgstr "Standard"
+
+#: library/AcfFields/php/options-theme-footer-layout.php:13
+msgid "Compressed"
+msgstr "Komprimerad"
+
+#: library/AcfFields/php/options-theme-footer-layout.php:23
+msgid "Footer layout"
+msgstr "Sidfotslayout"
+
+#: library/AcfFields/php/options-theme-footer-layout.php:39
+msgid "Enable footer signature"
+msgstr "Aktivera avsändare i sidfoten"
+
+#: library/AcfFields/php/options-theme-footer-layout.php:44
+msgid "Footer signature"
+msgstr "Avsändare i sidfoten"
+
+#: library/AcfFields/php/options-theme-footer-layout.php:47
+msgid ""
+"If enabled a predefined footer signature logo will be appended to the footer."
+msgstr ""
+"Om du aktiverar alternativet så kommer en fördefinierad avsändare-logotyp "
+"att visas i sidfoten."
+
+#: library/AcfFields/php/options-theme-footer-logotype.php:13
+msgid "Hide logotype in footer"
+msgstr "Dölj logotyp i sidfoten"
+
+#: library/AcfFields/php/options-theme-footer-logotype.php:21
+msgid "Logotype to use in footer"
+msgstr "Logotyp att använda i sidfot"
+
+#: library/AcfFields/php/options-theme-footer-logotype.php:36
+msgid "Above footer content"
+msgstr "Ovanför footerinnehåll"
+
+#: library/AcfFields/php/options-theme-footer-logotype.php:37
+msgid "Below footer content"
+msgstr "Under footerinnehåll"
+
+#: library/AcfFields/php/options-theme-footer-logotype.php:45
+msgid "Vertical position"
+msgstr "Vertikal positionering"
+
+#: library/AcfFields/php/options-theme-google-analytics.php:15
+msgid "Google Analytics UA"
+msgstr "Google Analytics UA"
+
+#: library/AcfFields/php/options-theme-google-analytics.php:18
+msgid ""
+"To activate Google Analytics please insert your Google Analytics UA."
+"<br>Usally a string like this: UA-XXXXX-Y"
+msgstr ""
+"För att aktivera Google Analytics anger du ditt Google Analytics UA här."
+"<br>Brukar vara formaterat såhär: UA-XXXXX-Y"
+
+#: library/AcfFields/php/options-theme-google-translate.php:12
+msgid "Do not show"
+msgstr "Visa inte"
+
+#: library/AcfFields/php/options-theme-google-translate.php:13
+msgid "Above header"
+msgstr "Ovanför sidhuvudet"
+
+#: library/AcfFields/php/options-theme-google-translate.php:14
+msgid "Below footer"
+msgstr "Under sidfoten"
+
+#: library/AcfFields/php/options-theme-google-translate.php:15
+msgid "Fixed to right edge"
+msgstr "Fixerad till högerkanten"
+
+#: library/AcfFields/php/options-theme-google-translate.php:25
+msgid "Where to show Google Translate"
+msgstr "Var Google Translate ska visas"
+
+#: library/AcfFields/php/options-theme-google-translate.php:55
+msgid "Menu to show translate link in"
+msgstr "Meny att visa översättningslänk i"
+
+#: library/AcfFields/php/options-theme-google-translate.php:72
+#: vendor/advanced-custom-fields/core/fields/text.php:19
+msgid "Text"
+msgstr "Text"
+
+#: library/AcfFields/php/options-theme-google-translate.php:74
+msgid "Icon and text"
+msgstr "Ikon och text"
+
+#: library/AcfFields/php/options-theme-google-translate.php:82
+msgid "Show as"
+msgstr "Visa som"
+
+#: library/AcfFields/php/options-theme-google-translate.php:101
+msgid "Track usage with Google Analytics"
+msgstr "Analysera användandet av webbplatsen med Google Analytics"
+
+#: library/AcfFields/php/options-theme-google-translate.php:104
+msgid ""
+"If set to enabled, Google Translate usage will be tracked in Google "
+"Analytics (to the account specified under the Google Analytics settings)"
+msgstr ""
+"Om funktionen är aktiverad kommer Google Translate användandet att spåras i "
+"Google Analytucs (till det Google Analytics kontot som är speicificerat "
+"under Google Analytics tabben)"
+
+#: library/AcfFields/php/options-theme-header-logotype.php:20
+msgid "Logotype to use in header"
+msgstr "Logotyp att använda i sidhuvudet"
+
+#: library/AcfFields/php/options-theme-header-logotype.php:39
+msgid "Logotype tooltip"
+msgstr "Inforuta vid logotypen"
+
+#: library/AcfFields/php/options-theme-header-logotype.php:42
+msgid ""
+"Tooltip text when hovering over the logotype in the header. The logo links "
+"to the front page. Leave empty if you don't want to show anything."
+msgstr ""
+"Inforuta som dyker upp när du håller musen ovanpå logotypen i sidhuvudet. "
+"Logotypen länkar till startsidan. Lämna tomt om du inte vill visa någon "
+"inforuta."
+
+#: library/AcfFields/php/options-theme-header-subtitle.php:9
+msgid "The sub site title can be used to complement a logotype"
+msgstr ""
+"Undertitel kan användas som ett komplement till en logotyp eller sidtitel"
+
+#: library/AcfFields/php/options-theme-header-subtitle.php:32
+msgid "Sub-title"
+msgstr "Undertitel"
+
+#: library/AcfFields/php/options-theme-header-subtitle.php:35
+msgid "HTML allowed"
+msgstr "HTML accepteras"
+
+#: library/AcfFields/php/options-theme-header-tagline.php:10
+msgid "Yes, enable tagline in header"
+msgstr "Ja, aktivera slogan i sidhuvudet"
+
+#: library/AcfFields/php/options-theme-header-tagline.php:15
+msgid "Enable tagline"
+msgstr "Aktivera slogan"
+
+#: library/AcfFields/php/options-theme-header-tagline.php:30
+msgid "Use site description"
+msgstr "Använd sidbeskrivningen"
+
+#: library/AcfFields/php/options-theme-header-tagline.php:31
+msgid "Input custom"
+msgstr "Använd egen"
+
+#: library/AcfFields/php/options-theme-header-tagline.php:39
+msgid "Tagline"
+msgstr "Slogan"
+
+#: library/AcfFields/php/options-theme-header-tagline.php:66
+msgid "Tagline text"
+msgstr "Slogantext"
+
+#: library/AcfFields/php/options-theme-header.php:11
+msgid "Business (default)"
+msgstr "Business (standardval)"
+
+#: library/AcfFields/php/options-theme-header.php:12
+msgid "Casual"
+msgstr "Casual"
+
+#: library/AcfFields/php/options-theme-header.php:13
+msgid "Jumbo"
+msgstr "Jumbo"
+
+#: library/AcfFields/php/options-theme-header.php:14
+msgid "Contrasted navbar"
+msgstr "Kontrasterad huvudmeny"
+
+#: library/AcfFields/php/options-theme-header.php:22
+#: library/AcfFields/php/options-theme-search-result.php:50
+#: vendor/advanced-custom-fields/core/fields/checkbox.php:183
+#: vendor/advanced-custom-fields/core/fields/message.php:20
+#: vendor/advanced-custom-fields/core/fields/radio.php:212
+#: vendor/advanced-custom-fields/core/fields/tab.php:20
+msgid "Layout"
+msgstr "Layout"
+
+#: library/AcfFields/php/options-theme-header.php:36
+msgid "Header should stick to view (floats when scrolling)"
+msgstr "Headern ska fastna i vyn när man scrollar"
+
+#: library/AcfFields/php/options-theme-header.php:41
+msgid "Sticky"
+msgstr "Klibbig"
+
+#: library/AcfFields/php/options-theme-header.php:55
+msgid "Transparent header on front page"
+msgstr "Genomskinlig header på startsidan"
+
+#: library/AcfFields/php/options-theme-header.php:60
+msgid "Transparent"
+msgstr "Genomskinlig"
+
+#: library/AcfFields/php/options-theme-header.php:74
+msgid "Center all contents of the header"
+msgstr "Centrera innehåll i header"
+
+#: library/AcfFields/php/options-theme-header.php:79
+msgid "Centered"
+msgstr "Centrerad"
+
+#: library/AcfFields/php/options-theme-header.php:94
+msgid "Light"
+msgstr "Ljus"
+
+#: library/AcfFields/php/options-theme-header.php:95
+msgid "Dark"
+msgstr "Mörk"
+
+#: library/AcfFields/php/options-theme-header.php:103
+msgid "Header content color"
+msgstr "Färg för innehåll i header"
+
+#: library/AcfFields/php/options-theme-logotype.php:20
+msgid "Standard logotype"
+msgstr "Standardlogotyp"
+
+#: library/AcfFields/php/options-theme-logotype.php:23
+msgid "Only .svg-files are supported."
+msgstr "Accepterar enbart .svg-filer"
+
+#: library/AcfFields/php/options-theme-logotype.php:44
+msgid "Negative logotype"
+msgstr "Negativ (vit) logotyp"
+
+#: library/AcfFields/php/options-theme-logotype.php:47
+msgid ""
+"Please upload a brand logo in the format .svg. The negative logo refers to a "
+"100% white logotype that can be used on dark backgrounds."
+msgstr ""
+"Vänligen ladda upp en logotyp i .svg-format. Den negativa logotypen är en "
+"100% vit version av din logotyp som kan användas på mörka bakgrunden."
+
+#: library/AcfFields/php/options-theme-mobile-navigation.php:10
+msgid "Enable separate mobile navigation"
+msgstr "Aktivera separat mobilmeny"
+
+#: library/AcfFields/php/options-theme-mobile-navigation.php:15
+msgid "Activate"
+msgstr "Aktivera"
+
+#: library/AcfFields/php/options-theme-post-timestamps.php:9
+msgid ""
+"Check boxes to enable timestamps for post types. Will be displayed after the "
+"content area, if applicable."
+msgstr ""
+"Klicka i kryssrutorna för att aktivera tidsstämplar för inläggstyper. "
+"Tidstämplarna visas under brödtexten, om möjligt."
+
+#: library/AcfFields/php/options-theme-post-timestamps.php:13
+msgid "Post footer timestamps"
+msgstr "Tidstämplar under inlägg"
+
+#: library/AcfFields/php/options-theme-post-timestamps.php:40
+#: views/partials/archive-filters.blade.php:17
+msgid "Date published"
+msgstr "Publiceringsdatum"
+
+#: library/AcfFields/php/options-theme-post-timestamps.php:67
+msgid "Date updated"
+msgstr "Senast uppdaterad"
+
+#: library/AcfFields/php/options-theme-post-types.php:10
+msgid "Yes, disable posts."
+msgstr "Ja, inaktivera blogg"
+
+#: library/AcfFields/php/options-theme-post-types.php:15
+msgid "Disable blog"
+msgstr "Inaktivera blogg"
+
+#: library/AcfFields/php/options-theme-post-types.php:29
+msgid "Yes, disable pages."
+msgstr "Ja, inaktivera sidor"
+
+#: library/AcfFields/php/options-theme-post-types.php:34
+msgid "Disable pages"
+msgstr "Inaktivera sidor"
+
+#: library/AcfFields/php/options-theme-primary-navigation.php:30
+#: library/AcfFields/php/options-theme-sub-navigation.php:31
+msgid "Automatically generated"
+msgstr "Automatiskt genererad"
+
+#: library/AcfFields/php/options-theme-primary-navigation.php:31
+#: library/AcfFields/php/options-theme-sub-navigation.php:32
+msgid "WP Menu"
+msgstr "WP Meny"
+
+#: library/AcfFields/php/options-theme-primary-navigation.php:39
+#: library/AcfFields/php/options-theme-sub-navigation.php:40
+msgid "Menu type"
+msgstr "Typ av meny"
+
+#: library/AcfFields/php/options-theme-primary-navigation.php:61
+msgid "Yes, display second menu level to active first level menu item"
+msgstr "Ja, visa sekundär menynivå till aktivt menyval i förstanivå"
+
+#: library/AcfFields/php/options-theme-primary-navigation.php:66
+msgid "Second level"
+msgstr "Sekundär nivå"
+
+#: library/AcfFields/php/options-theme-primary-navigation.php:87
+#: library/AcfFields/php/options-theme-sub-navigation.php:61
+msgid ""
+"The automatically generated menu type will include all published pages from "
+"top level pages and down to the below specified depth level. The "
+"automatically generated menu is a heavy procedure for the system to run. The "
+"deeper it should go the longer loading time."
+msgstr ""
+"Den automatiskt genererade menyn inkluderar alla publicerade sidor i "
+"hierarkisk ordning ned till det angivna djupet. Den automatiska genererade "
+"menyn kan ta lång tid att ladda in om det är många sidor som ska genereras i "
+"menyn."
+
+#: library/AcfFields/php/options-theme-primary-navigation.php:91
+#: library/AcfFields/php/options-theme-sub-navigation.php:65
+msgid "Automatically generated menu"
+msgstr "Automatiskt genererad meny"
+
+#: library/AcfFields/php/options-theme-primary-navigation.php:120
+msgid "All levels"
+msgstr "Alla nivåer"
+
+#: library/AcfFields/php/options-theme-primary-navigation.php:121
+msgid "Only sub levels of active top level item"
+msgstr "Bara undernivåer till aktiv förstanivå"
+
+#: library/AcfFields/php/options-theme-primary-navigation.php:131
+#: library/AcfFields/php/options-theme-sub-navigation.php:173
+msgid "Render"
+msgstr "Rendering"
+
+#: library/AcfFields/php/options-theme-primary-navigation.php:134
+#: library/AcfFields/php/options-theme-sub-navigation.php:176
+msgid "How to render the items"
+msgstr "Hur menyalternativen ska renderas"
+
+#: library/AcfFields/php/options-theme-primary-navigation.php:161
+#: library/AcfFields/php/options-theme-scroll-elevator.php:102
+msgid "Left"
+msgstr "Vänster"
+
+#: library/AcfFields/php/options-theme-primary-navigation.php:162
+#: vendor/advanced-custom-fields/core/fields/google-map.php:162
+msgid "Center"
+msgstr "Centrerad"
+
+#: library/AcfFields/php/options-theme-primary-navigation.php:163
+#: library/AcfFields/php/options-theme-scroll-elevator.php:103
+msgid "Right"
+msgstr "Höger"
+
+#: library/AcfFields/php/options-theme-primary-navigation.php:164
+msgid "Justify"
+msgstr "Fyll bredd"
+
+#: library/AcfFields/php/options-theme-primary-navigation.php:172
+msgid "Menu items alignment"
+msgstr "Justering för menylternativ"
+
+#: library/AcfFields/php/options-theme-scroll-elevator.php:9
+msgid ""
+"Adds a button that scrolls the user to the very top of the page. Enables on "
+"the class \"scroll-elevator-toggle\". When the window scroll position is a "
+"the bottom of the \"scroll-elevator-toggle\" element the button will be "
+"displayed."
+msgstr ""
+"Lägger till en knapp som scrollar användaren till toppen av sidan. Knappen "
+"läggs till där classen ”scroll-elevator-toggle” finns, när ett fönsters "
+"scroll-position är i botten av elementet med classen."
+
+#: library/AcfFields/php/options-theme-scroll-elevator.php:27
+msgid "Enable scroll elevator"
+msgstr "Aktivera ”ta mig till toppen”"
+
+#: library/AcfFields/php/options-theme-scroll-elevator.php:51
+msgid "Call to action text"
+msgstr "Call to action text"
+
+#: library/AcfFields/php/options-theme-scroll-elevator.php:78
+msgid "Tooltip"
+msgstr "Tooltip"
+
+#: library/AcfFields/php/options-theme-scroll-elevator.php:104
+msgid "Top"
+msgstr "Ovanför"
+
+#: library/AcfFields/php/options-theme-scroll-elevator.php:105
+msgid "Bottom"
+msgstr "Under"
+
+#: library/AcfFields/php/options-theme-scroll-elevator.php:114
+msgid "Tooltip position"
+msgstr "Positionering av tooltip"
+
+#: library/AcfFields/php/options-theme-search-display.php:42
+msgid "Search field label"
+msgstr "Sökfältets titel"
+
+#: library/AcfFields/php/options-theme-search-display.php:63
+msgid "Search field placeholder"
+msgstr "Sökfältets beskrivning"
+
+#: library/AcfFields/php/options-theme-search-display.php:84
+msgid "Search button text"
+msgstr "Sök-knappens text"
+
+#: library/AcfFields/php/options-theme-search-result.php:12
+msgid "Published date"
+msgstr "Publicerad"
+
+#: library/AcfFields/php/options-theme-search-result.php:13
+msgid "Lead"
+msgstr "Ingress"
+
+#: library/AcfFields/php/options-theme-search-result.php:26
+msgid "Display options"
+msgstr "Visningsinställningar"
+
+#: library/AcfFields/php/options-theme-search-result.php:41
+msgid "Default (list)"
+msgstr "Standard (lista)"
+
+#: library/AcfFields/php/options-theme-search-result.php:42
+msgid "Grid"
+msgstr "Rutnät"
+
+#: library/AcfFields/php/options-theme-search-result.php:66
+msgid "1"
+msgstr ""
+
+#: library/AcfFields/php/options-theme-search-result.php:67
+msgid "2"
+msgstr ""
+
+#: library/AcfFields/php/options-theme-search-result.php:68
+msgid "3"
+msgstr ""
+
+#: library/AcfFields/php/options-theme-search-result.php:69
+msgid "4"
+msgstr ""
+
+#: library/AcfFields/php/options-theme-search-result.php:79
+msgid "Grid columns"
+msgstr "Kolumner i rutnät"
+
+#: library/AcfFields/php/options-theme-search.php:10
+msgid "Use Google Site Search"
+msgstr "Använd Google Site Search"
+
+#: library/AcfFields/php/options-theme-search.php:34
+msgid "Google API Key"
+msgstr "Google API Key"
+
+#: library/AcfFields/php/options-theme-search.php:63
+msgid "Google Api CX"
+msgstr "Google Api CX"
+
+#: library/AcfFields/php/options-theme-share.php:15
+msgid "Show share icons"
+msgstr "Visa delningsikoner"
+
+#: library/AcfFields/php/options-theme-share.php:18
+msgid ""
+"This is a master control which will enable/disable the social share icons "
+"for each and all posts and pages."
+msgstr ""
+"Detta är en master-kontroll som inaktiverar/aktiverar delningsikoner för "
+"alla sidor och inlägg."
+
+#: library/AcfFields/php/options-theme-sub-navigation.php:30
+msgid "Act as sub menu to the primary menu"
+msgstr "Agera submeny åt huvudmenyn"
+
+#: library/AcfFields/php/options-theme-sub-navigation.php:92
+msgid "Include top level pages"
+msgstr "Inkludera första nivån"
+
+#: library/AcfFields/php/options-theme-sub-navigation.php:97
+msgid "Top level pages"
+msgstr "Sidor från första nivån"
+
+#: library/AcfFields/php/options-theme-sub-navigation.php:100
+msgid ""
+"Weather to include the top level pages. If unchecked the pages will be "
+"generated from depth 2."
+msgstr ""
+"Bestäm om sidor från första nivån från den hierarkiska ordningen ska visas. "
+"Om ej aktiverad så kommer sidorna börja genereras från djup 2."
+
+#: library/AcfFields/php/options-theme-sub-navigation.php:131
+msgid "Menu depth"
+msgstr "Menydjup"
+
+#: library/AcfFields/php/options-theme-sub-navigation.php:134
+msgid "Set to 0 to show all levels"
+msgstr "Sätt till 0 för att visa alla nivåer"
+
+#: library/AcfFields/php/options-theme-sub-navigation.php:162
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:763
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:784
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:791
+#: vendor/advanced-custom-fields/core/fields/file.php:186
+#: vendor/advanced-custom-fields/core/fields/image.php:177
+#: vendor/advanced-custom-fields/core/fields/page_link.php:109
+#: vendor/advanced-custom-fields/core/fields/post_object.php:286
+#: vendor/advanced-custom-fields/core/fields/post_object.php:310
+#: vendor/advanced-custom-fields/core/fields/relationship.php:582
+#: vendor/advanced-custom-fields/core/fields/relationship.php:606
+#: vendor/advanced-custom-fields/core/fields/user.php:276
+msgid "All"
+msgstr "Alla"
+
+#: library/AcfFields/php/options-theme-sub-navigation.php:163
+msgid "Only active level's subitems"
+msgstr "Bara aktiva sidans undersidor"
+
+#: library/AcfFields/php/user-author-image.php:20
+msgid "Profile picture"
+msgstr "Profilbild"
+
+#: library/AcfFields/php/user-author-image.php:36
+msgid "Facebook profile url"
+msgstr "Url till Facebook-profil"
+
+#: library/AcfFields/php/user-author-image.php:52
+msgid "Linkedin profile url"
+msgstr "Url till LinkedIn-profil"
+
+#: library/AcfFields/php/user-author-image.php:68
+#: library/AcfFields/php/user-author-image.php:87
+msgid "@"
+msgstr ""
+
+#: library/AcfFields/php/user-author-image.php:71
+msgid "Instagram username"
+msgstr "Användarnamn på Instagram"
+
+#: library/AcfFields/php/user-author-image.php:90
+msgid "Twitter username"
+msgstr "Användarnamn på Twitter"
+
+#: library/AcfFields/php/widget-contact.php:17
+msgid "Contact person"
+msgstr "Kontaktperson"
+
+#: library/AcfFields/php/widget-contact.php:38
+msgid "Company"
+msgstr "Företag"
+
+#: library/AcfFields/php/widget-contact.php:59
+msgid "Phone numer"
+msgstr "Telefonnummer"
+
+#: library/AcfFields/php/widget-contact.php:79
+#: vendor/advanced-custom-fields/core/fields/email.php:19
+msgid "Email"
+msgstr "Epost"
+
+#: library/AcfFields/php/widget-contact.php:98
+msgid "Address"
+msgstr "Adress"
+
+#: library/AcfFields/php/widget-contact.php:119
+msgid "Kontakter"
+msgstr "Kontakter"
+
+#: library/Admin/General.php:104
+msgid "Only for logged in users"
+msgstr "Endast för inloggade användare"
+
+#: library/Admin/General.php:158
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:733
+msgid "Private"
+msgstr "Privat"
+
+#: library/Admin/Options/Archives.php:51
+msgid "Archive for"
+msgstr "Arkiv för"
+
+#: library/Admin/Options/Archives.php:97
+msgid "Leave empty to hide title"
+msgstr "Lämna tomt för att dölja titel"
+
+#: library/Admin/Options/GoogleTranslate.php:15
+msgid "None (link to #translate to show)"
+msgstr ""
+
+#: library/Admin/Options/Theme.php:19 library/Admin/Options/Theme.php:20
+msgid "Theme Options"
+msgstr "Temainställningar"
+
+#: library/Admin/Options/Theme.php:36 library/Admin/Options/Theme.php:37
+msgid "Header"
+msgstr "Sidhuvud"
+
+#: library/Admin/Options/Theme.php:44 library/Admin/Options/Theme.php:45
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v4.php:24
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v5.php:25
+#: vendor/advanced-custom-fields/core/fields/file.php:20
+#: vendor/advanced-custom-fields/core/fields/image.php:20
+#: vendor/advanced-custom-fields/core/fields/wysiwyg.php:20
+msgid "Content"
+msgstr "Innehåll"
+
+#: library/Admin/Options/Theme.php:52 library/Admin/Options/Theme.php:53
+#: library/Theme/Sidebars.php:81
+msgid "Footer"
+msgstr "Sidfot"
+
+#: library/Admin/Options/Theme.php:60 library/Admin/Options/Theme.php:61
+#: library/Theme/Navigation.php:180
+#: vendor/advanced-custom-fields/core/fields/relationship.php:634
+#: views/partials/archive-filters.blade.php:7
+#: views/partials/archive-filters.blade.php:10
+#: views/partials/archive-filters.blade.php:46
+msgid "Search"
+msgstr "Sök"
+
+#: library/Admin/Options/Theme.php:68 library/Admin/Options/Theme.php:69
+msgid "Blog & Archives"
+msgstr "Bloggar & Arkiv"
+
+#: library/Admin/Options/Theme.php:108
+msgid "Custom Post Types"
+msgstr "Egna inläggstyper"
+
+#: library/Admin/Options/Theme.php:109
+msgid "Post Types"
+msgstr "Inläggstyper"
+
+#: library/Admin/Options/Theme.php:116
+msgid "Custom Taxonomies"
+msgstr "Egna taxonomies"
+
+#: library/Admin/Options/Theme.php:117
+msgid "Taxonomies"
+msgstr "Taxonomies"
+
+#: library/Admin/Options/Theme.php:124
+msgid "Custom CSS/JS Editor"
+msgstr "Egen CSS/JS"
+
+#: library/Admin/Options/Theme.php:125
+msgid "Custom CSS/JS"
+msgstr "Egen CSS/JS"
+
+#: library/Admin/UI/BackEnd.php:23
+msgid "Local"
+msgstr "Lokal miljö"
+
+#: library/Admin/UI/BackEnd.php:27
+msgid "Test"
+msgstr "Test"
+
+#: library/Admin/UI/BackEnd.php:31
+msgid "Beta"
+msgstr "Beta"
+
+#: library/Admin/UI/BackEnd.php:41 library/Admin/UI/BackEnd.php:46
+#: library/Admin/UI/BackEnd.php:51
+msgid "Notice"
+msgstr "Notis"
+
+#: library/Admin/UI/BackEnd.php:41
+msgid "You're on a local server."
+msgstr "Detta är en lokal server."
+
+#: library/Admin/UI/BackEnd.php:46
+msgid "This it the test-environment. Your content will not be published."
+msgstr "Detta är en test-miljö. Ditt innehåll kommer inte att publiceras."
+
+#: library/Admin/UI/BackEnd.php:51
+msgid "This it the beta-environment. All functionality is not guaranteed."
+msgstr "Detta är en beta-miljö. All funktionalitet är inte garanterad."
+
+#: library/Admin/UI/VarnishPurge.php:38
+msgid "Varnish cache purged for this post!"
+msgstr "Varnish cachen tömd för denna sida"
+
+#: library/Admin/UI/VarnishPurge.php:64
+msgid "Purge Page"
+msgstr "Töm cache för sidan"
+
+#: library/Admin/UI/VarnishPurge.php:77
+msgid "Purge Varnish"
+msgstr "Töm varnish"
+
+#: library/Comment/CommentsFilters.php:21
+msgid ""
+"Municipio: constant 'g_recaptcha_key' or 'g_recaptcha_secret' is not defined."
+msgstr ""
+"Municipio: konstant ‘g_recaptcha_key’ eller ‘g_recaptcha_secret’ är inte "
+"definierade."
+
+#: library/Comment/CommentsFilters.php:38
+#: vendor/advanced-custom-fields/core/actions/export.php:26
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:58
+msgid "Error"
+msgstr "Fel"
+
+#: library/Comment/CommentsFilters.php:38
+msgid "reCaptcha verification failed"
+msgstr "Verifiering av robotfilter misslyckades"
+
+#: library/Comment/HoneyPot.php:66
+msgid "Could not verify that you are human (image check)."
+msgstr "Kunde inte verifiera att du är mänsklig (bildkontroll)"
+
+#: library/Comment/HoneyPot.php:113
+msgid ""
+"Could not verify that you are human (some hidden form fields are "
+"manipulated)."
+msgstr "Kunde inte verifiera att du är mänsklig (ett dolt fält är manipulerat)"
+
+#: library/Comment/HoneyPot.php:116
+msgid "Could not verify that you are human (some form fields are missing)."
+msgstr "Kunde inte verifiera att du är mänsklig (något formulärsfält saknas)"
+
+#: library/Content/CustomPostType.php:55
+msgid "Add new"
+msgstr "Skapa ny"
+
+#: library/Content/CustomPostType.php:56
+#, php-format
+msgid "Add new %s"
+msgstr "Skapa ny %s"
+
+#: library/Content/CustomPostType.php:57
+#, php-format
+msgid "New %s"
+msgstr "Ny %s"
+
+#: library/Content/CustomPostType.php:58
+#, php-format
+msgid "Edit %s"
+msgstr "Redigera %s"
+
+#: library/Content/CustomPostType.php:59
+#, php-format
+msgid "View %s"
+msgstr "Visa %s"
+
+#: library/Content/CustomPostType.php:60
+#, php-format
+msgid "All %s"
+msgstr "Alla %s"
+
+#: library/Content/CustomPostType.php:61
+#, php-format
+msgid "Search %s"
+msgstr "Sök %s"
+
+#: library/Content/CustomPostType.php:62
+#, php-format
+msgid "Parent %s"
+msgstr "Förälder %s"
+
+#: library/Content/CustomPostType.php:63
+#, php-format
+msgid "No %s found"
+msgstr "Inga %s hittades"
+
+#: library/Content/CustomPostType.php:64
+#, php-format
+msgid "No %s found in trash"
+msgstr "Inga %s hittades i papperskorgen"
+
+#: library/Content/CustomPostType.php:74
+msgid "Auto generated cpt from user iterface."
+msgstr "Automatiskt genererade posttyper från inställningspanel"
+
+#: library/Controller/Single.php:17
+msgid "Reply"
+msgstr ""
+
+#: library/Controller/Single.php:18
+msgid "Log in to Reply"
+msgstr ""
+
+#: library/Helper/Event.php:17
+msgid "to"
+msgstr "till"
+
+#: library/Helper/NavigationTree.php:486
+#, fuzzy
+#| msgid "Dropdown sub-menus"
+msgid "Show submenu"
+msgstr "Dropdown submenyer"
+
+#: library/Oembed/Vimeo.php:19 library/Oembed/YouTube.php:57
+#: library/Oembed/YouTube.php:59
+msgid ""
+"Video playback unavailable, enable JavaScript in your browser to watch video."
+msgstr ""
+"Uppspelning av video är inte tillgänglig, aktivera JavaScript i din "
+"webbläsare."
+
+#: library/Template.php:49
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:85
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:86
+msgid "Page"
+msgstr "Sida"
+
+#: library/Template.php:53
+msgid "Front page"
+msgstr "Startsida"
+
+#: library/Template.php:132
+msgid "Admin notice"
+msgstr "Administratörsnotis"
+
+#: library/Template.php:132
+#, php-format
+msgid "View [%s] was not found. Defaulting to [page.blade.php]."
+msgstr "Mallen [%s] hittades inte. Använder [page.blade.php] istället."
+
+#: library/Theme/Archive.php:29
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: library/Theme/Archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: library/Theme/Archive.php:33
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: library/Theme/Archive.php:47
+msgid "Archive"
+msgstr "Arkiv"
+
+#: library/Theme/CustomTemplates.php:10
+msgid "Full width"
+msgstr "Fullbredd"
+
+#: library/Theme/CustomTemplates.php:16
+msgid "One page (no article)"
+msgstr "Fullbredd (utan artikel)"
+
+#: library/Theme/Enqueue.php:166
+msgid "No matching content found…"
+msgstr "Inga matchande filter hittades…"
+
+#: library/Theme/Enqueue.php:174
+msgid "Insert Print Page Break tag"
+msgstr "Infoga sidbrytning för utskrift"
+
+#: library/Theme/General.php:156
+msgid "Print"
+msgstr "Skriv ut"
+
+#: library/Theme/Navigation.php:116
+msgid "Help menu"
+msgstr "Hjälpmeny"
+
+#: library/Theme/Navigation.php:117
+msgid "Header tabs menu"
+msgstr "Header-tabbar"
+
+#: library/Theme/Navigation.php:121
+msgid "Main menu"
+msgstr "Huvudmeny"
+
+#: library/Theme/Navigation.php:125
+msgid "Sidebar menu"
+msgstr "Sidomeny"
+
+#: library/Theme/Navigation.php:212 library/Theme/Navigation.php:213
+msgid "Home"
+msgstr "Hem"
+
+#: library/Theme/Sidebars.php:82
+msgid "The footer area"
+msgstr "Footer-arean"
+
+#: library/Theme/Sidebars.php:94
+msgid "Hero"
+msgstr "Under sidhuvud (Heroyta)"
+
+#: library/Theme/Sidebars.php:95
+msgid "The hero area"
+msgstr "Hero-arean"
+
+#: library/Theme/Sidebars.php:107
+msgid "Content area (above article)"
+msgstr "Innehållsarea (ovanför artikel)"
+
+#: library/Theme/Sidebars.php:108
+msgid "The area above the content"
+msgstr "Arean ovanför huvudinnehållet"
+
+#: library/Theme/Sidebars.php:118
+msgid "Content area (below article)"
+msgstr "Innehållsarea (nedanför artikel)"
+
+#: library/Theme/Sidebars.php:119
+msgid "The area below the content"
+msgstr "Arean under innehållet"
+
+#: library/Theme/Sidebars.php:129
+msgid "Main container bottom"
+msgstr "Under artikel"
+
+#: library/Theme/Sidebars.php:130
+msgid "The area below the main container"
+msgstr "Arean under main container"
+
+#: library/Theme/Sidebars.php:140
+msgid "Left sidebar"
+msgstr "Vänster sidofält (övre sektion)"
+
+#: library/Theme/Sidebars.php:141
+msgid "The left sidebar area"
+msgstr "Sidebar till vänster"
+
+#: library/Theme/Sidebars.php:153
+msgid "Left sidebar bottom"
+msgstr "Vänster sidofält (undre sektion)"
+
+#: library/Theme/Sidebars.php:154
+msgid "The area below the left sidebar content"
+msgstr "Sidebar vänster botten"
+
+#: library/Theme/Sidebars.php:166
+msgid "Right sidebar"
+msgstr "Höger sidofält"
+
+#: library/Theme/Sidebars.php:167
+msgid "The right sidebar area"
+msgstr "Sidebar till höger"
+
+#: library/Theme/Sidebars.php:179
+msgid "Top sidebar (full-width)"
+msgstr "Under sidhuvud (täcker hela fönstrets bredd)"
+
+#: library/Theme/Sidebars.php:180
+#, php-format
+msgid "Sidebar that sits below the hero, takes up 100% of the widht."
+msgstr ""
+
+#: library/Theme/Sidebars.php:192
+msgid "Bottom sidebar (full-width)"
+msgstr "Ovanför sidfot (täcker hela fönstrets bredd)"
+
+#: library/Theme/Sidebars.php:193
+#, php-format
+msgid "Sidebar that sits just before the footer, takes up 100% of the widht."
+msgstr ""
+
+#: library/Theme/Support.php:158
+msgid "Article"
+msgstr "Artikel"
+
+#: library/Widget/Contact.php:11
+msgid "Contact"
+msgstr "Kontakt"
+
+#: library/Widget/Contact.php:13
+msgid "Displays the contact information given."
+msgstr "Visar den angivna kontaktinformationen"
+
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v4.php:23
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v5.php:24
+msgid "Font Awesome Icon"
+msgstr "Ikon"
+
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v4.php:118
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v5.php:145
+msgid "Default Icon"
+msgstr "Standardikon"
+
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v4.php:130
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v4.php:247
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v5.php:236
+#: vendor/advanced-custom-fields/core/fields/select.php:18
+#: vendor/advanced-custom-fields/core/fields/select.php:109
+#: vendor/advanced-custom-fields/core/fields/taxonomy.php:480
+#: vendor/advanced-custom-fields/core/fields/user.php:313
+#: views/partials/archive-filters/button-dropdown.blade.php:3
+#: views/partials/archive-filters/select.blade.php:9
+msgid "Select"
+msgstr "Välj"
+
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v4.php:139
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v5.php:154
+#: vendor/advanced-custom-fields/core/fields/file.php:153
+#: vendor/advanced-custom-fields/core/fields/image.php:125
+#: vendor/advanced-custom-fields/core/fields/taxonomy.php:523
+msgid "Return Value"
+msgstr "Returnera värde"
+
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v4.php:140
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v5.php:155
+#: vendor/advanced-custom-fields/core/fields/image.php:126
+#: vendor/advanced-custom-fields/core/fields/relationship.php:557
+msgid "Specify the returned value on front end"
+msgstr "Specificera värdet som ska visas för besökare"
+
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v4.php:149
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v5.php:159
+msgid "Icon Element"
+msgstr "Ikonens div-element"
+
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v4.php:150
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v5.php:160
+msgid "Icon Class"
+msgstr "Ikonens css-klass"
+
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v4.php:151
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v5.php:161
+msgid "Icon Unicode"
+msgstr "Ikon"
+
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v4.php:152
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v5.php:162
+msgid "Icon Object"
+msgstr "Ikonobjekt"
+
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v4.php:162
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v5.php:167
+#: vendor/advanced-custom-fields/core/fields/page_link.php:127
+#: vendor/advanced-custom-fields/core/fields/post_object.php:329
+#: vendor/advanced-custom-fields/core/fields/select.php:214
+#: vendor/advanced-custom-fields/core/fields/taxonomy.php:489
+#: vendor/advanced-custom-fields/core/fields/user.php:322
+msgid "Allow Null?"
+msgstr "Tillåt tomt värde"
+
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v4.php:171
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v4.php:192
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v5.php:172
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v5.php:183
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:463
+#: vendor/advanced-custom-fields/core/fields/page_link.php:137
+#: vendor/advanced-custom-fields/core/fields/page_link.php:158
+#: vendor/advanced-custom-fields/core/fields/post_object.php:339
+#: vendor/advanced-custom-fields/core/fields/post_object.php:360
+#: vendor/advanced-custom-fields/core/fields/select.php:223
+#: vendor/advanced-custom-fields/core/fields/select.php:242
+#: vendor/advanced-custom-fields/core/fields/taxonomy.php:498
+#: vendor/advanced-custom-fields/core/fields/user.php:331
+#: vendor/advanced-custom-fields/core/fields/wysiwyg.php:344
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:194
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:217
+msgid "Yes"
+msgstr "Ja"
+
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v4.php:172
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v4.php:193
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v5.php:173
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v5.php:184
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:462
+#: vendor/advanced-custom-fields/core/fields/page_link.php:138
+#: vendor/advanced-custom-fields/core/fields/page_link.php:159
+#: vendor/advanced-custom-fields/core/fields/post_object.php:340
+#: vendor/advanced-custom-fields/core/fields/post_object.php:361
+#: vendor/advanced-custom-fields/core/fields/select.php:224
+#: vendor/advanced-custom-fields/core/fields/select.php:243
+#: vendor/advanced-custom-fields/core/fields/taxonomy.php:499
+#: vendor/advanced-custom-fields/core/fields/user.php:332
+#: vendor/advanced-custom-fields/core/fields/wysiwyg.php:345
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:195
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:218
+msgid "No"
+msgstr "Nej"
+
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v4.php:182
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v5.php:178
+msgid "Enqueue FontAwesome?"
+msgstr "Bädda in font-awesome ikonbibliotek"
+
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v4.php:183
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v5.php:179
+msgid "Set to 'Yes' to enqueue FA in the footer on any pages using this field."
+msgstr "Ladda in font-awesome i sidfoten"
+
+#: plugins/advanced-custom-fields-font-awesome/acf-font-awesome-v5.php:137
+msgid "Live Preview"
+msgstr "Förhandsgranskning"
+
+#: plugins/advanced-custom-fields-font-awesome/better-font-awesome-library/better-font-awesome-library.php:493
+msgid "The jsDelivr API servers appear to be temporarily unavailable."
+msgstr ""
+"Typsnittsbilbioteket kunde inte laddas in eftersom servrarna är "
+"otillgängliga."
+
+#: plugins/advanced-custom-fields-font-awesome/better-font-awesome-library/better-font-awesome-library.php:1042
+msgid "Insert Icon"
+msgstr "Välj ikon"
+
+#: plugins/advanced-custom-fields-font-awesome/better-font-awesome-library/better-font-awesome-library.php:1062
+msgid "Better Font Awesome"
+msgstr ""
+
+#: plugins/advanced-custom-fields-font-awesome/better-font-awesome-library/better-font-awesome-library.php:1068
+msgid "API Error"
+msgstr "Api-fel"
+
+#: plugins/advanced-custom-fields-font-awesome/better-font-awesome-library/better-font-awesome-library.php:1070
+#, php-format
+msgid ""
+"The attempt to reach the jsDelivr API server failed with the following "
+"error: %s"
+msgstr ""
+
+#: plugins/advanced-custom-fields-font-awesome/better-font-awesome-library/better-font-awesome-library.php:1080
+msgid "Remote CSS Error"
+msgstr ""
+
+#: plugins/advanced-custom-fields-font-awesome/better-font-awesome-library/better-font-awesome-library.php:1082
+#, php-format
+msgid ""
+"The attempt to fetch the remote Font Awesome stylesheet failed with the "
+"following error: %s %s The embedded fallback Font Awesome will be used "
+"instead (version: %s)."
+msgstr ""
+
+#: plugins/advanced-custom-fields-font-awesome/better-font-awesome-library/better-font-awesome-library.php:1092
+msgid ""
+"<b>Don't worry! Better Font Awesome will still render using the included "
+"fallback version:</b> "
+msgstr ""
+
+#: plugins/advanced-custom-fields-font-awesome/better-font-awesome-library/better-font-awesome-library.php:1096
+msgid "Solution"
+msgstr ""
+
+#: plugins/advanced-custom-fields-font-awesome/better-font-awesome-library/better-font-awesome-library.php:1098
+#, php-format
+msgid ""
+"This may be the result of a temporary server or connectivity issue which "
+"will resolve shortly. However if the problem persists please file a support "
+"ticket on the %splugin forum%s, citing the errors listed above. "
+msgstr ""
+
+#: vendor/advanced-custom-fields/acf.php:509
+msgid "Field&nbsp;Groups"
+msgstr "Fältgrupper"
+
+#: vendor/advanced-custom-fields/acf.php:510
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:213
+#, fuzzy
+#| msgid "Custom Taxonomies"
+msgid "Advanced Custom Fields"
+msgstr "Egna taxonomies"
+
+#: vendor/advanced-custom-fields/acf.php:511
+msgid "Add New"
+msgstr "Skapa ny"
+
+#: vendor/advanced-custom-fields/acf.php:512
+#, fuzzy
+#| msgid "New Field Group"
+msgid "Add New Field Group"
+msgstr "Ny fältgrupp"
+
+#: vendor/advanced-custom-fields/acf.php:513
+msgid "Edit Field Group"
+msgstr "Redigera fältgrupp"
+
+#: vendor/advanced-custom-fields/acf.php:514
+msgid "New Field Group"
+msgstr "Ny fältgrupp"
+
+#: vendor/advanced-custom-fields/acf.php:515
+msgid "View Field Group"
+msgstr "Visa fältgrupp"
+
+#: vendor/advanced-custom-fields/acf.php:516
+msgid "Search Field Groups"
+msgstr "Sök efter fältgrupp"
+
+#: vendor/advanced-custom-fields/acf.php:517
+msgid "No Field Groups found"
+msgstr "Inga fältgrupper hittades"
+
+#: vendor/advanced-custom-fields/acf.php:518
+msgid "No Field Groups found in Trash"
+msgstr "Inga fältgrupper hittades i papperskorgen"
+
+#: vendor/advanced-custom-fields/acf.php:603
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:99
+#, fuzzy
+#| msgid "Custom Taxonomies"
+msgid "Custom Fields"
+msgstr "Egna taxonomies"
+
+#: vendor/advanced-custom-fields/acf.php:621
+#: vendor/advanced-custom-fields/acf.php:624
+#, fuzzy
+#| msgid "Date published"
+msgid "Field group updated."
+msgstr "Publiceringsdatum"
+
+#: vendor/advanced-custom-fields/acf.php:622
+#, fuzzy
+#| msgid "Date updated"
+msgid "Custom field updated."
+msgstr "Senast uppdaterad"
+
+#: vendor/advanced-custom-fields/acf.php:623
+#, fuzzy
+#| msgid "Date updated"
+msgid "Custom field deleted."
+msgstr "Senast uppdaterad"
+
+#: vendor/advanced-custom-fields/acf.php:626
+#, php-format
+msgid "Field group restored to revision from %s"
+msgstr ""
+
+#: vendor/advanced-custom-fields/acf.php:627
+#, fuzzy
+#| msgid "Date published"
+msgid "Field group published."
+msgstr "Publiceringsdatum"
+
+#: vendor/advanced-custom-fields/acf.php:628
+#, fuzzy
+#| msgid "Date published"
+msgid "Field group saved."
+msgstr "Publiceringsdatum"
+
+#: vendor/advanced-custom-fields/acf.php:629
+#, fuzzy
+#| msgid "Date published"
+msgid "Field group submitted."
+msgstr "Publiceringsdatum"
+
+#: vendor/advanced-custom-fields/acf.php:630
+#, fuzzy
+#| msgid "Date published"
+msgid "Field group scheduled for."
+msgstr "Publiceringsdatum"
+
+#: vendor/advanced-custom-fields/acf.php:631
+#, fuzzy
+#| msgid "Date published"
+msgid "Field group draft updated."
+msgstr "Publiceringsdatum"
+
+#: vendor/advanced-custom-fields/acf.php:766
+msgid "Thumbnail"
+msgstr ""
+
+#: vendor/advanced-custom-fields/acf.php:767
+msgid "Medium"
+msgstr ""
+
+#: vendor/advanced-custom-fields/acf.php:768
+msgid "Large"
+msgstr ""
+
+#: vendor/advanced-custom-fields/acf.php:769
+msgid "Full"
+msgstr "Fullständig"
+
+#: vendor/advanced-custom-fields/core/actions/export.php:33
+msgid "No ACF groups selected"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/api.php:1171
+#, fuzzy
+#| msgid "To date"
+msgid "Update"
+msgstr "Till datum"
+
+#: vendor/advanced-custom-fields/core/api.php:1172
+#, fuzzy
+#| msgid "Last updated"
+msgid "Post updated"
+msgstr "Senast uppdaterad"
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:42
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:306
+msgid "Add-ons"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:130
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:428
+msgid "Repeater Field"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:131
+msgid "Create infinite rows of repeatable data with this versatile interface!"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:137
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:436
+#, fuzzy
+#| msgid "Email"
+msgid "Gallery Field"
+msgstr "Epost"
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:138
+msgid "Create image galleries in a simple and intuitive interface!"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:144
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:444
+#, fuzzy
+#| msgid "Theme Options"
+msgid "Options Page"
+msgstr "Temainställningar"
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:145
+msgid "Create global data to use throughout your website!"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:151
+#, fuzzy
+#| msgid "Content"
+msgid "Flexible Content Field"
+msgstr "Innehåll"
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:152
+msgid "Create unique designs with a flexible content layout manager!"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:161
+msgid "Gravity Forms Field"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:162
+msgid "Creates a select field populated with Gravity Forms!"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:168
+msgid "Date & Time Picker"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:169
+msgid "jQuery date & time picker"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:175
+#, fuzzy
+#| msgid "Google Api CX"
+msgid "Google Map Extended"
+msgstr "Google Api CX"
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:176
+msgid "Find addresses and coordinates of a desired location"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:182
+#, fuzzy
+#| msgid "Custom Taxonomies"
+msgid "Contact Form 7 Field"
+msgstr "Egna taxonomies"
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:183
+msgid "Assign one or more contact form 7 forms to a post"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:193
+#, fuzzy
+#| msgid "Custom Taxonomies"
+msgid "Advanced Custom Fields Add-Ons"
+msgstr "Egna taxonomies"
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:196
+msgid ""
+"The following Add-ons are available to increase the functionality of the "
+"Advanced Custom Fields plugin."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:197
+msgid ""
+"Each Add-on can be installed as a separate plugin (receives updates) or "
+"included in your theme (does not receive updates)."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:219
+#: vendor/advanced-custom-fields/core/controllers/addons.php:240
+msgid "Installed"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:221
+msgid "Purchase & Install"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/addons.php:242
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:421
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:430
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:438
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:446
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:454
+msgid "Download"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:50
+#: vendor/advanced-custom-fields/core/controllers/export.php:159
+msgid "Export"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:216
+#, fuzzy
+#| msgid "Field&nbsp;Groups"
+msgid "Export Field Groups"
+msgstr "Fältgrupper"
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:221
+#, fuzzy
+#| msgid "Field&nbsp;Groups"
+msgid "Field Groups"
+msgstr "Fältgrupper"
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:222
+msgid "Select the field groups to be exported"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:239
+#: vendor/advanced-custom-fields/core/controllers/export.php:252
+msgid "Export to XML"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:242
+#: vendor/advanced-custom-fields/core/controllers/export.php:267
+msgid "Export to PHP"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:253
+msgid ""
+"ACF will create a .xml export file which is compatible with the native WP "
+"import plugin."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:254
+msgid ""
+"Imported field groups <b>will</b> appear in the list of editable field "
+"groups. This is useful for migrating fields groups between Wp websites."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:256
+msgid "Select field group(s) from the list and click \"Export XML\""
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:257
+msgid "Save the .xml file when prompted"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:258
+msgid "Navigate to Tools &raquo; Import and select WordPress"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:259
+msgid "Install WP import plugin if prompted"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:260
+msgid "Upload and import your exported .xml file"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:261
+msgid "Select your user and ignore Import Attachments"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:262
+msgid "That's it! Happy WordPressing"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:268
+msgid "ACF will create the PHP code to include in your theme."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:269
+#: vendor/advanced-custom-fields/core/controllers/export.php:310
+msgid ""
+"Registered field groups <b>will not</b> appear in the list of editable field "
+"groups. This is useful for including fields in themes."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:270
+#: vendor/advanced-custom-fields/core/controllers/export.php:311
+msgid ""
+"Please note that if you export and register field groups within the same WP, "
+"you will see duplicate fields on your edit screens. To fix this, please move "
+"the original field group to the trash or remove the code from your functions."
+"php file."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:272
+msgid "Select field group(s) from the list and click \"Create PHP\""
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:273
+#: vendor/advanced-custom-fields/core/controllers/export.php:302
+msgid "Copy the PHP code generated"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:274
+#: vendor/advanced-custom-fields/core/controllers/export.php:303
+#, fuzzy
+#| msgid "Post type functions"
+msgid "Paste into your functions.php file"
+msgstr "Funktioner för inläggstypen"
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:275
+#: vendor/advanced-custom-fields/core/controllers/export.php:304
+msgid "To activate any Add-ons, edit and use the code in the first few lines."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:295
+#, fuzzy
+#| msgid "Field&nbsp;Groups"
+msgid "Export Field Groups to PHP"
+msgstr "Fältgrupper"
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:300
+#: vendor/advanced-custom-fields/core/fields/tab.php:65
+#, fuzzy
+#| msgid "Active"
+msgid "Instructions"
+msgstr "Aktivera"
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:309
+msgid "Notes"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:316
+msgid "Include in theme"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:317
+msgid ""
+"The Advanced Custom Fields plugin can be included within a theme. To do so, "
+"move the ACF plugin inside your theme and add the following code to your "
+"functions.php file:"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:323
+msgid ""
+"To remove all visual interfaces from the ACF plugin, you can use a constant "
+"to enable lite mode. Add the following code to your functions.php file "
+"<b>before</b> the include_once code:"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:331
+#, fuzzy
+#| msgid "Back button text"
+msgid "Back to export"
+msgstr "Text på tillbaka-knapp"
+
+#: vendor/advanced-custom-fields/core/controllers/export.php:400
+#, fuzzy
+#| msgid "No Field Groups found"
+msgid "No field groups were selected"
+msgstr "Inga fältgrupper hittades"
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:359
+msgid "Move to trash. Are you sure?"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:360
+msgid "checked"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:361
+msgid "No toggle fields available"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:362
+#, fuzzy
+#| msgid "Date published"
+msgid "Field group title is required"
+msgstr "Publiceringsdatum"
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:363
+msgid "copy"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:364
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:62
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:159
+#, fuzzy
+#| msgid "More"
+msgid "or"
+msgstr "Mer"
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:365
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:397
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:459
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:148
+#, fuzzy
+#| msgid "Field&nbsp;Groups"
+msgid "Fields"
+msgstr "Fältgrupper"
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:366
+#, fuzzy
+#| msgid "Parent %s"
+msgid "Parent fields"
+msgstr "Förälder %s"
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:367
+msgid "Sibling fields"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:368
+#, fuzzy
+#| msgid "Show all"
+msgid "Hide / Show All"
+msgstr "Visa alla"
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:398
+#, fuzzy
+#| msgid "Local"
+msgid "Location"
+msgstr "Lokal miljö"
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:399
+#, fuzzy
+#| msgid "Theme Options"
+msgid "Options"
+msgstr "Temainställningar"
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:461
+msgid "Show Field Key:"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:635
+#, fuzzy
+#| msgid "Front page"
+msgid "Front Page"
+msgstr "Startsida"
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:636
+#, fuzzy
+#| msgid "Posts by"
+msgid "Posts Page"
+msgstr "Inlägg av"
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:637
+msgid "Top Level Page (parent of 0)"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:638
+msgid "Parent Page (has children)"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:639
+msgid "Child Page (has parent)"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:647
+#, fuzzy
+#| msgid "Default style"
+msgid "Default Template"
+msgstr "Standard"
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:729
+#: views/partials/timestamps.blade.php:33
+#: views/partials/timestamps.blade.php:53
+msgid "Published"
+msgstr "Publicerad"
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:730
+msgid "Pending Review"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:731
+msgid "Draft"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:732
+msgid "Future"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:734
+#, fuzzy
+#| msgid "Revisions"
+msgid "Revision"
+msgstr "Versioner"
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:735
+msgid "Trash"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_group.php:748
+msgid "Super Admin"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:147
+msgid "Title"
+msgstr "Titel"
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:215
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:252
+#, fuzzy
+#| msgid "Changelog for"
+msgid "Changelog"
+msgstr "Se ändringsloggen"
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:216
+#, php-format
+msgid "See what's new in %1$sversion %2$s%3$s"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:218
+msgid "Resources"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:220
+msgid "Getting Started"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:221
+#, fuzzy
+#| msgid "Custom Post Types"
+msgid "Field Types"
+msgstr "Egna inläggstyper"
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:222
+#, fuzzy
+#| msgid "Active"
+msgid "Functions"
+msgstr "Aktivera"
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:223
+#, fuzzy
+#| msgid "Active"
+msgid "Actions"
+msgstr "Aktivera"
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:224
+#: vendor/advanced-custom-fields/core/fields/relationship.php:625
+#, fuzzy
+#| msgid "Filter"
+msgid "Filters"
+msgstr "Filtrera"
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:225
+msgid "'How to' guides"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:226
+msgid "Tutorials"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:231
+msgid "Created by"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:243
+msgid "Welcome to Advanced Custom Fields"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:244
+msgid "Thank you for updating to the latest version!"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:244
+#, php-format
+msgid ""
+"ACF %s is more polished and enjoyable than ever before. We hope you like it."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:251
+msgid "What’s New"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:254
+#, fuzzy
+#| msgid "Available post types"
+msgid "Download Add-ons"
+msgstr "Tillgängliga inläggstyper"
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:308
+msgid "Activation codes have grown into plugins!"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:309
+msgid ""
+"Add-ons are now activated by downloading and installing individual plugins. "
+"Although these plugins will not be hosted on the wordpress.org repository, "
+"each Add-on will continue to receive updates in the usual way."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:315
+msgid "All previous Add-ons have been successfully installed"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:319
+msgid "This website uses premium Add-ons which need to be downloaded"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:319
+msgid "Download your activated Add-ons"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:324
+msgid ""
+"This website does not use premium Add-ons and will not be affected by this "
+"change."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:334
+msgid "Easier Development"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:336
+#, fuzzy
+#| msgid "New Field Group"
+msgid "New Field Types"
+msgstr "Ny fältgrupp"
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:338
+#, fuzzy
+#| msgid "Taxonomies"
+msgid "Taxonomy Field"
+msgstr "Taxonomies"
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:339
+#, fuzzy
+#| msgid "Custom Taxonomies"
+msgid "User Field"
+msgstr "Egna taxonomies"
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:340
+#, fuzzy
+#| msgid "Email"
+msgid "Email Field"
+msgstr "Epost"
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:341
+msgid "Password Field"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:343
+#, fuzzy
+#| msgid "Custom Post Types"
+msgid "Custom Field Types"
+msgstr "Egna inläggstyper"
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:344
+msgid ""
+"Creating your own field type has never been easier! Unfortunately, version 3 "
+"field types are not compatible with version 4."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:345
+#, php-format
+msgid ""
+"Migrating your field types is easy, please %sfollow this tutorial%s to learn "
+"more."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:347
+msgid "Actions &amp; Filters"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:348
+#, php-format
+msgid ""
+"All actions & filters have received a major facelift to make customizing ACF "
+"even easier! Please %sread this guide%s to find the updated naming "
+"convention."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:350
+msgid "Preview draft is now working!"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:351
+msgid "This bug has been squashed along with many other little critters!"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:351
+msgid "See the full changelog"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:355
+msgid "Important"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:357
+msgid "Database Changes"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:358
+msgid ""
+"Absolutely <strong>no</strong> changes have been made to the database "
+"between versions 3 and 4. This means you can roll back to version 3 without "
+"any issues."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:360
+msgid "Potential Issues"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:361
+#, php-format
+msgid ""
+"Due to the sizable changes surrounding Add-ons, field types and action/"
+"filters, your website may not operate correctly. It is important that you "
+"read the full %sMigrating from v3 to v4%s guide to view the full list of "
+"changes."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:364
+msgid "Really Important!"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:364
+#, php-format
+msgid ""
+"If you updated the ACF plugin without prior knowledge of such changes, "
+"please roll back to the latest %sversion 3%s of this plugin."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:369
+msgid "Thank You"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:370
+msgid ""
+"A <strong>BIG</strong> thank you to everyone who has helped test the version "
+"4 beta and for all the support I have received."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:371
+msgid "Without you all, this release would not have been possible!"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:375
+msgid "Changelog for"
+msgstr "Se ändringsloggen"
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:392
+msgid "Learn more"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:398
+#, fuzzy
+#| msgid "Live Preview"
+msgid "Overview"
+msgstr "Förhandsgranskning"
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:400
+msgid ""
+"Previously, all Add-ons were unlocked via an activation code (purchased from "
+"the ACF Add-ons store). New to v4, all Add-ons act as separate plugins which "
+"need to be individually downloaded, installed and updated."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:402
+msgid ""
+"This page will assist you in downloading and installing each available Add-"
+"on."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:404
+#, fuzzy
+#| msgid "Available post types"
+msgid "Available Add-ons"
+msgstr "Tillgängliga inläggstyper"
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:406
+msgid "The following Add-ons have been detected as activated on this website."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:419
+#: vendor/advanced-custom-fields/core/fields/file.php:109
+msgid "Name"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:420
+#, fuzzy
+#| msgid "Active"
+msgid "Activation Code"
+msgstr "Aktivera"
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:452
+#, fuzzy
+#| msgid "Content"
+msgid "Flexible Content"
+msgstr "Innehåll"
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:462
+msgid "Installation"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:464
+msgid "For each Add-on available, please perform the following:"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:466
+msgid "Download the Add-on plugin (.zip file) to your desktop"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:467
+#, php-format
+msgid "Navigate to %sPlugins > Add New > Upload%s"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:468
+msgid "Use the uploader to browse, select and install your Add-on (.zip file)"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:469
+msgid ""
+"Once the plugin has been uploaded and installed, click the 'Activate Plugin' "
+"link"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:470
+msgid "The Add-on is now installed and activated!"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/field_groups.php:484
+msgid "Awesome. Let's get to work"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/input.php:63
+#, fuzzy
+#| msgid "Collapsed"
+msgid "Expand Details"
+msgstr "Infälld"
+
+#: vendor/advanced-custom-fields/core/controllers/input.php:64
+#, fuzzy
+#| msgid "Collapsed"
+msgid "Collapse Details"
+msgstr "Infälld"
+
+#: vendor/advanced-custom-fields/core/controllers/input.php:67
+msgid "Validation Failed. One or more fields below are required."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/upgrade.php:77
+msgid "Upgrade"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/upgrade.php:599
+msgid "Modifying field group options 'show on page'"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/upgrade.php:653
+msgid "Modifying field option 'taxonomy'"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/controllers/upgrade.php:750
+msgid "Moving user custom fields from wp_options to wp_usermeta"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/_base.php:124
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:74
+msgid "Basic"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/checkbox.php:19
+#: vendor/advanced-custom-fields/core/fields/taxonomy.php:475
+msgid "Checkbox"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/checkbox.php:20
+#: vendor/advanced-custom-fields/core/fields/radio.php:19
+#: vendor/advanced-custom-fields/core/fields/select.php:19
+#: vendor/advanced-custom-fields/core/fields/true_false.php:20
+msgid "Choice"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/checkbox.php:146
+#: vendor/advanced-custom-fields/core/fields/radio.php:147
+#: vendor/advanced-custom-fields/core/fields/select.php:177
+msgid "Choices"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/checkbox.php:147
+#: vendor/advanced-custom-fields/core/fields/select.php:178
+msgid "Enter each choice on a new line."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/checkbox.php:148
+#: vendor/advanced-custom-fields/core/fields/select.php:179
+msgid "For more control, you may specify both a value and label like this:"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/checkbox.php:149
+#: vendor/advanced-custom-fields/core/fields/radio.php:153
+#: vendor/advanced-custom-fields/core/fields/select.php:180
+msgid "red : Red"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/checkbox.php:149
+#: vendor/advanced-custom-fields/core/fields/radio.php:154
+#: vendor/advanced-custom-fields/core/fields/select.php:180
+msgid "blue : Blue"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/checkbox.php:166
+#: vendor/advanced-custom-fields/core/fields/color_picker.php:89
+#: vendor/advanced-custom-fields/core/fields/email.php:106
+#: vendor/advanced-custom-fields/core/fields/number.php:116
+#: vendor/advanced-custom-fields/core/fields/radio.php:196
+#: vendor/advanced-custom-fields/core/fields/select.php:197
+#: vendor/advanced-custom-fields/core/fields/text.php:116
+#: vendor/advanced-custom-fields/core/fields/textarea.php:103
+#: vendor/advanced-custom-fields/core/fields/true_false.php:94
+#: vendor/advanced-custom-fields/core/fields/wysiwyg.php:287
+#, fuzzy
+#| msgid "Default style"
+msgid "Default Value"
+msgstr "Standard"
+
+#: vendor/advanced-custom-fields/core/fields/checkbox.php:167
+#: vendor/advanced-custom-fields/core/fields/select.php:198
+msgid "Enter each default value on a new line"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/checkbox.php:194
+#: vendor/advanced-custom-fields/core/fields/radio.php:223
+#, fuzzy
+#| msgid "Article"
+msgid "Vertical"
+msgstr "Artikel"
+
+#: vendor/advanced-custom-fields/core/fields/checkbox.php:195
+#: vendor/advanced-custom-fields/core/fields/radio.php:224
+msgid "Horizontal"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/color_picker.php:19
+#, fuzzy
+#| msgid "Color scheme"
+msgid "Color Picker"
+msgstr "Färgschema"
+
+#: vendor/advanced-custom-fields/core/fields/color_picker.php:20
+#: vendor/advanced-custom-fields/core/fields/date_picker/date_picker.php:20
+#: vendor/advanced-custom-fields/core/fields/google-map.php:19
+msgid "jQuery"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/date_picker/date_picker.php:19
+#, fuzzy
+#| msgid "Color scheme"
+msgid "Date Picker"
+msgstr "Färgschema"
+
+#: vendor/advanced-custom-fields/core/fields/date_picker/date_picker.php:55
+msgid "Done"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/date_picker/date_picker.php:56
+msgid "Today"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/date_picker/date_picker.php:59
+msgid "Show a different month"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/date_picker/date_picker.php:126
+#, fuzzy
+#| msgid "Display settings"
+msgid "Save format"
+msgstr "Visningsinställningar"
+
+#: vendor/advanced-custom-fields/core/fields/date_picker/date_picker.php:127
+msgid ""
+"This format will determine the value saved to the database and returned via "
+"the API"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/date_picker/date_picker.php:128
+msgid "\"yymmdd\" is the most versatile save format. Read more about"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/date_picker/date_picker.php:128
+#: vendor/advanced-custom-fields/core/fields/date_picker/date_picker.php:144
+msgid "jQuery date formats"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/date_picker/date_picker.php:142
+#, fuzzy
+#| msgid "Display settings"
+msgid "Display format"
+msgstr "Visningsinställningar"
+
+#: vendor/advanced-custom-fields/core/fields/date_picker/date_picker.php:143
+msgid "This format will be seen by the user when entering a value"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/date_picker/date_picker.php:144
+msgid ""
+"\"dd/mm/yy\" or \"mm/dd/yy\" are the most used display formats. Read more "
+"about"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/date_picker/date_picker.php:158
+msgid "Week Starts On"
+msgstr "Veckan startar på"
+
+#: vendor/advanced-custom-fields/core/fields/dummy.php:19
+msgid "Dummy"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/email.php:107
+#: vendor/advanced-custom-fields/core/fields/number.php:117
+#: vendor/advanced-custom-fields/core/fields/text.php:117
+#: vendor/advanced-custom-fields/core/fields/textarea.php:104
+#: vendor/advanced-custom-fields/core/fields/wysiwyg.php:288
+msgid "Appears when creating a new post"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/email.php:123
+#: vendor/advanced-custom-fields/core/fields/number.php:133
+#: vendor/advanced-custom-fields/core/fields/password.php:105
+#: vendor/advanced-custom-fields/core/fields/text.php:131
+#: vendor/advanced-custom-fields/core/fields/textarea.php:118
+#, fuzzy
+#| msgid "Placeholder text"
+msgid "Placeholder Text"
+msgstr "Platshållare"
+
+#: vendor/advanced-custom-fields/core/fields/email.php:124
+#: vendor/advanced-custom-fields/core/fields/number.php:134
+#: vendor/advanced-custom-fields/core/fields/password.php:106
+#: vendor/advanced-custom-fields/core/fields/text.php:132
+#: vendor/advanced-custom-fields/core/fields/textarea.php:119
+msgid "Appears within the input"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/email.php:138
+#: vendor/advanced-custom-fields/core/fields/number.php:148
+#: vendor/advanced-custom-fields/core/fields/password.php:120
+#: vendor/advanced-custom-fields/core/fields/text.php:146
+msgid "Prepend"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/email.php:139
+#: vendor/advanced-custom-fields/core/fields/number.php:149
+#: vendor/advanced-custom-fields/core/fields/password.php:121
+#: vendor/advanced-custom-fields/core/fields/text.php:147
+msgid "Appears before the input"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/email.php:153
+#: vendor/advanced-custom-fields/core/fields/number.php:163
+#: vendor/advanced-custom-fields/core/fields/password.php:135
+#: vendor/advanced-custom-fields/core/fields/text.php:161
+msgid "Append"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/email.php:154
+#: vendor/advanced-custom-fields/core/fields/number.php:164
+#: vendor/advanced-custom-fields/core/fields/password.php:136
+#: vendor/advanced-custom-fields/core/fields/text.php:162
+msgid "Appears after the input"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/file.php:19
+#, fuzzy
+#| msgid "Add new"
+msgid "File"
+msgstr "Skapa ny"
+
+#: vendor/advanced-custom-fields/core/fields/file.php:26
+#, fuzzy
+#| msgid "Select"
+msgid "Select File"
+msgstr "Välj"
+
+#: vendor/advanced-custom-fields/core/fields/file.php:27
+#, fuzzy
+#| msgid "Edit %s"
+msgid "Edit File"
+msgstr "Redigera %s"
+
+#: vendor/advanced-custom-fields/core/fields/file.php:28
+#, fuzzy
+#| msgid "datetime"
+msgid "Update File"
+msgstr "datetime"
+
+#: vendor/advanced-custom-fields/core/fields/file.php:29
+#: vendor/advanced-custom-fields/core/fields/image.php:30
+msgid "Uploaded to this post"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/file.php:113
+msgid "Size"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/file.php:123
+#, fuzzy
+#| msgid "Post Types"
+msgid "No File Selected"
+msgstr "Inläggstyper"
+
+#: vendor/advanced-custom-fields/core/fields/file.php:123
+#, fuzzy
+#| msgid "Add new"
+msgid "Add File"
+msgstr "Skapa ny"
+
+#: vendor/advanced-custom-fields/core/fields/file.php:164
+#, fuzzy
+#| msgid "Icon Object"
+msgid "File Object"
+msgstr "Ikonobjekt"
+
+#: vendor/advanced-custom-fields/core/fields/file.php:165
+msgid "File URL"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/file.php:166
+msgid "File ID"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/file.php:175
+#: vendor/advanced-custom-fields/core/fields/image.php:165
+msgid "Library"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/file.php:187
+#: vendor/advanced-custom-fields/core/fields/image.php:178
+msgid "Uploaded to post"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/google-map.php:18
+#, fuzzy
+#| msgid "Google Api CX"
+msgid "Google Map"
+msgstr "Google Api CX"
+
+#: vendor/advanced-custom-fields/core/fields/google-map.php:33
+#, fuzzy
+#| msgid "Local"
+msgid "Locating"
+msgstr "Lokal miljö"
+
+#: vendor/advanced-custom-fields/core/fields/google-map.php:34
+msgid "Sorry, this browser does not support geolocation"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/google-map.php:120
+#, fuzzy
+#| msgid "Local"
+msgid "Clear location"
+msgstr "Lokal miljö"
+
+#: vendor/advanced-custom-fields/core/fields/google-map.php:125
+msgid "Find current location"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/google-map.php:126
+#, fuzzy
+#| msgid "Search for \\\"%s\\\""
+msgid "Search for address..."
+msgstr "Sök efter \\\"%s\\\""
+
+#: vendor/advanced-custom-fields/core/fields/google-map.php:163
+msgid "Center the initial map"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/google-map.php:199
+msgid "Zoom"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/google-map.php:200
+msgid "Set the initial zoom level"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/google-map.php:217
+#, fuzzy
+#| msgid "Light"
+msgid "Height"
+msgstr "Ljus"
+
+#: vendor/advanced-custom-fields/core/fields/google-map.php:218
+msgid "Customise the map height"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/image.php:19
+#, fuzzy
+#| msgid "Add new"
+msgid "Image"
+msgstr "Skapa ny"
+
+#: vendor/advanced-custom-fields/core/fields/image.php:27
+#, fuzzy
+#| msgid "Select"
+msgid "Select Image"
+msgstr "Välj"
+
+#: vendor/advanced-custom-fields/core/fields/image.php:28
+#, fuzzy
+#| msgid "Add new"
+msgid "Edit Image"
+msgstr "Skapa ny"
+
+#: vendor/advanced-custom-fields/core/fields/image.php:29
+#, fuzzy
+#| msgid "Featured Image"
+msgid "Update Image"
+msgstr "Utvald bild"
+
+#: vendor/advanced-custom-fields/core/fields/image.php:90
+msgid "Remove"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/image.php:91
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:108
+#, fuzzy
+#| msgid "Edit %s"
+msgid "Edit"
+msgstr "Redigera %s"
+
+#: vendor/advanced-custom-fields/core/fields/image.php:97
+msgid "No image selected"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/image.php:97
+#, fuzzy
+#| msgid "Add new"
+msgid "Add Image"
+msgstr "Skapa ny"
+
+#: vendor/advanced-custom-fields/core/fields/image.php:136
+#, fuzzy
+#| msgid "Icon Object"
+msgid "Image Object"
+msgstr "Ikonobjekt"
+
+#: vendor/advanced-custom-fields/core/fields/image.php:137
+msgid "Image URL"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/image.php:138
+msgid "Image ID"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/image.php:146
+msgid "Preview Size"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/image.php:147
+msgid "Shown when entering data"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/image.php:166
+msgid "Limit the media library choice"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/message.php:71
+msgid "Text &amp; HTML entered here will appear inline with the fields"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/message.php:72
+msgid "Please note that all text will first be passed through the wp function "
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/number.php:19
+msgid "Number"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/number.php:178
+msgid "Minimum Value"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/number.php:194
+#, fuzzy
+#| msgid "Default style"
+msgid "Maximum Value"
+msgstr "Standard"
+
+#: vendor/advanced-custom-fields/core/fields/number.php:210
+msgid "Step Size"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/page_link.php:18
+#, fuzzy
+#| msgid "Page"
+msgid "Page Link"
+msgstr "Sida"
+
+#: vendor/advanced-custom-fields/core/fields/page_link.php:19
+#: vendor/advanced-custom-fields/core/fields/post_object.php:19
+#: vendor/advanced-custom-fields/core/fields/relationship.php:19
+#: vendor/advanced-custom-fields/core/fields/taxonomy.php:19
+#: vendor/advanced-custom-fields/core/fields/user.php:19
+msgid "Relational"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/page_link.php:103
+#: vendor/advanced-custom-fields/core/fields/post_object.php:280
+#: vendor/advanced-custom-fields/core/fields/relationship.php:576
+#: vendor/advanced-custom-fields/core/fields/relationship.php:655
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:75
+#, fuzzy
+#| msgid "Post Types"
+msgid "Post Type"
+msgstr "Inläggstyper"
+
+#: vendor/advanced-custom-fields/core/fields/page_link.php:148
+#: vendor/advanced-custom-fields/core/fields/post_object.php:350
+#: vendor/advanced-custom-fields/core/fields/select.php:233
+msgid "Select multiple values?"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/password.php:19
+msgid "Password"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/post_object.php:18
+#, fuzzy
+#| msgid "Posts by"
+msgid "Post Object"
+msgstr "Inlägg av"
+
+#: vendor/advanced-custom-fields/core/fields/post_object.php:194
+#: vendor/advanced-custom-fields/core/fields/relationship.php:164
+#, fuzzy
+#| msgid "Menu title"
+msgid "(no title)"
+msgstr "Menytitel"
+
+#: vendor/advanced-custom-fields/core/fields/post_object.php:304
+#: vendor/advanced-custom-fields/core/fields/relationship.php:600
+#, fuzzy
+#| msgid "Type of taxonomy"
+msgid "Filter from Taxonomy"
+msgstr "Typ av taxonomy"
+
+#: vendor/advanced-custom-fields/core/fields/radio.php:18
+#, fuzzy
+#| msgid "Button"
+msgid "Radio Button"
+msgstr "Knapp"
+
+#: vendor/advanced-custom-fields/core/fields/radio.php:105
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:91
+msgid "Other"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/radio.php:148
+msgid "Enter your choices one per line"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/radio.php:150
+msgid "Red"
+msgstr "Röd"
+
+#: vendor/advanced-custom-fields/core/fields/radio.php:151
+msgid "Blue"
+msgstr "Blå"
+
+#: vendor/advanced-custom-fields/core/fields/radio.php:175
+msgid "Add 'other' choice to allow for custom values"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/radio.php:187
+msgid "Save 'other' values to the field's choices"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/relationship.php:18
+msgid "Relationship"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/relationship.php:29
+msgid "Maximum values reached ( {max} values )"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/relationship.php:451
+#, fuzzy
+#| msgid "Search"
+msgid "Search..."
+msgstr "Sök"
+
+#: vendor/advanced-custom-fields/core/fields/relationship.php:462
+#, fuzzy
+#| msgid "Available post types"
+msgid "Filter by post type"
+msgstr "Tillgängliga inläggstyper"
+
+#: vendor/advanced-custom-fields/core/fields/relationship.php:556
+#, fuzzy
+#| msgid "Post Formats"
+msgid "Return Format"
+msgstr "Inläggsformat"
+
+#: vendor/advanced-custom-fields/core/fields/relationship.php:567
+#, fuzzy
+#| msgid "Post Types"
+msgid "Post Objects"
+msgstr "Inläggstyper"
+
+#: vendor/advanced-custom-fields/core/fields/relationship.php:568
+#, fuzzy
+#| msgid "Posts"
+msgid "Post IDs"
+msgstr "Inlägg"
+
+#: vendor/advanced-custom-fields/core/fields/relationship.php:635
+#, fuzzy
+#| msgid "Post Types"
+msgid "Post Type Select"
+msgstr "Inläggstyper"
+
+#: vendor/advanced-custom-fields/core/fields/relationship.php:643
+#, fuzzy
+#| msgid "Placement"
+msgid "Elements"
+msgstr "Placering"
+
+#: vendor/advanced-custom-fields/core/fields/relationship.php:644
+msgid "Selected elements will be displayed in each result"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/relationship.php:654
+#, fuzzy
+#| msgid "Post Types"
+msgid "Post Title"
+msgstr "Inläggstyper"
+
+#: vendor/advanced-custom-fields/core/fields/relationship.php:666
+msgid "Maximum posts"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/tab.php:19
+msgid "Tab"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/tab.php:68
+msgid ""
+"Use \"Tab Fields\" to better organize your edit screen by grouping your "
+"fields together under separate tab headings."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/tab.php:69
+msgid ""
+"All the fields following this \"tab field\" (or until another \"tab field\" "
+"is defined) will be grouped together."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/tab.php:70
+msgid "Use multiple tabs to divide your fields into sections."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/taxonomy.php:18
+#: vendor/advanced-custom-fields/core/fields/taxonomy.php:430
+#, fuzzy
+#| msgid "Taxonomies"
+msgid "Taxonomy"
+msgstr "Taxonomies"
+
+#: vendor/advanced-custom-fields/core/fields/taxonomy.php:374
+#: vendor/advanced-custom-fields/core/fields/taxonomy.php:383
+msgid "None"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/taxonomy.php:464
+#: vendor/advanced-custom-fields/core/fields/user.php:298
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:77
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:158
+#, fuzzy
+#| msgid "Custom Post Types"
+msgid "Field Type"
+msgstr "Egna inläggstyper"
+
+#: vendor/advanced-custom-fields/core/fields/taxonomy.php:474
+#: vendor/advanced-custom-fields/core/fields/user.php:307
+#, fuzzy
+#| msgid "Default style"
+msgid "Multiple Values"
+msgstr "Standard"
+
+#: vendor/advanced-custom-fields/core/fields/taxonomy.php:476
+#: vendor/advanced-custom-fields/core/fields/user.php:309
+#, fuzzy
+#| msgid "Author Select"
+msgid "Multi Select"
+msgstr "Val av författare"
+
+#: vendor/advanced-custom-fields/core/fields/taxonomy.php:478
+#: vendor/advanced-custom-fields/core/fields/user.php:311
+msgid "Single Value"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/taxonomy.php:479
+#, fuzzy
+#| msgid "Button"
+msgid "Radio Buttons"
+msgstr "Knapp"
+
+#: vendor/advanced-custom-fields/core/fields/taxonomy.php:508
+msgid "Load & Save Terms to Post"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/taxonomy.php:516
+msgid ""
+"Load value based on the post's terms and update the post's terms on save"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/taxonomy.php:533
+#, fuzzy
+#| msgid "Icon Object"
+msgid "Term Object"
+msgstr "Ikonobjekt"
+
+#: vendor/advanced-custom-fields/core/fields/taxonomy.php:534
+msgid "Term ID"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/text.php:176
+#: vendor/advanced-custom-fields/core/fields/textarea.php:164
+#, fuzzy
+#| msgid "Formats"
+msgid "Formatting"
+msgstr "Inläggsformat"
+
+#: vendor/advanced-custom-fields/core/fields/text.php:177
+#: vendor/advanced-custom-fields/core/fields/textarea.php:165
+#, fuzzy
+#| msgid "Specify the returned value on front end"
+msgid "Affects value on front end"
+msgstr "Specificera värdet som ska visas för besökare"
+
+#: vendor/advanced-custom-fields/core/fields/text.php:186
+#: vendor/advanced-custom-fields/core/fields/textarea.php:174
+#, fuzzy
+#| msgid "Formats"
+msgid "No formatting"
+msgstr "Inläggsformat"
+
+#: vendor/advanced-custom-fields/core/fields/text.php:187
+#: vendor/advanced-custom-fields/core/fields/textarea.php:176
+msgid "Convert HTML into tags"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/text.php:195
+#: vendor/advanced-custom-fields/core/fields/textarea.php:133
+msgid "Character Limit"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/text.php:196
+#: vendor/advanced-custom-fields/core/fields/textarea.php:134
+msgid "Leave blank for no limit"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/textarea.php:19
+#, fuzzy
+#| msgid "Text"
+msgid "Text Area"
+msgstr "Text"
+
+#: vendor/advanced-custom-fields/core/fields/textarea.php:148
+msgid "Rows"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/textarea.php:149
+msgid "Sets the textarea height"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/textarea.php:175
+msgid "Convert new lines into &lt;br /&gt; tags"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/true_false.php:19
+msgid "True / False"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/true_false.php:80
+#, fuzzy
+#| msgid "Below footer content"
+msgid "eg. Show extra content"
+msgstr "Under footerinnehåll"
+
+#: vendor/advanced-custom-fields/core/fields/user.php:18
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:94
+msgid "User"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/user.php:271
+#, fuzzy
+#| msgid "Filter"
+msgid "Filter by role"
+msgstr "Filtrera"
+
+#: vendor/advanced-custom-fields/core/fields/wysiwyg.php:19
+msgid "Wysiwyg Editor"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/wysiwyg.php:302
+msgid "Toolbar"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/fields/wysiwyg.php:334
+#, fuzzy
+#| msgid "Show social media share buttons"
+msgid "Show Media Upload Buttons?"
+msgstr "Visa delningsknappar"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:24
+#, fuzzy
+#| msgid "New Field Group"
+msgid "New Field"
+msgstr "Ny fältgrupp"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:58
+msgid "Field type does not exist"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:74
+#, fuzzy
+#| msgid "Label"
+msgid "Field Order"
+msgstr "Namn"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:75
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:126
+#, fuzzy
+#| msgid "Label"
+msgid "Field Label"
+msgstr "Namn"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:76
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:142
+#, fuzzy
+#| msgid "Label"
+msgid "Field Name"
+msgstr "Namn"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:78
+#, fuzzy
+#| msgid "Label"
+msgid "Field Key"
+msgstr "Namn"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:90
+msgid ""
+"No fields. Click the <strong>+ Add Field</strong> button to create your "
+"first field."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:105
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:108
+#, fuzzy
+#| msgid "Edit %s"
+msgid "Edit this Field"
+msgstr "Redigera %s"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:109
+msgid "Duplicate this Field"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:109
+msgid "Duplicate"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:110
+msgid "Delete this Field"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:110
+msgid "Delete"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:127
+msgid "This is the name which will appear on the EDIT page"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:143
+msgid "Single word, no spaces. Underscores and dashes allowed"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:172
+#, fuzzy
+#| msgid "Field&nbsp;Groups"
+msgid "Field Instructions"
+msgstr "Fältgrupper"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:173
+msgid "Instructions for authors. Shown when submitting data"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:186
+msgid "Required?"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:209
+msgid "Conditional Logic"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:260
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:117
+msgid "is equal to"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:261
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:118
+msgid "is not equal to"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:279
+msgid "Show this field when"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:285
+#, fuzzy
+#| msgid "All"
+msgid "all"
+msgstr "Alla"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:286
+#, fuzzy
+#| msgid "Company"
+msgid "any"
+msgstr "Företag"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:289
+msgid "these rules are met"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:303
+#, fuzzy
+#| msgid "Custom Taxonomies"
+msgid "Close Field"
+msgstr "Egna taxonomies"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:316
+msgid "Drag and drop to reorder"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_fields.php:317
+#, fuzzy
+#| msgid "Add new"
+msgid "+ Add Field"
+msgstr "Skapa ny"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:48
+msgid "Rules"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:49
+msgid ""
+"Create a set of rules to determine which edit screens will use these "
+"advanced custom fields"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:60
+msgid "Show this field group if"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:76
+msgid "Logged in User Type"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:78
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:79
+#, fuzzy
+#| msgid "Posts"
+msgid "Post"
+msgstr "Inlägg"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:80
+#, fuzzy
+#| msgid "Category"
+msgid "Post Category"
+msgstr "Kategori"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:81
+#, fuzzy
+#| msgid "Post Formats"
+msgid "Post Format"
+msgstr "Inläggsformat"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:82
+#, fuzzy
+#| msgid "Post Formats"
+msgid "Post Status"
+msgstr "Inläggsformat"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:83
+#, fuzzy
+#| msgid "Custom Taxonomies"
+msgid "Post Taxonomy"
+msgstr "Egna taxonomies"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:87
+#, fuzzy
+#| msgid "Post Types"
+msgid "Page Type"
+msgstr "Inläggstyper"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:88
+#, fuzzy
+#| msgid "Purge Page"
+msgid "Page Parent"
+msgstr "Töm cache för sidan"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:89
+#, fuzzy
+#| msgid "Post Types"
+msgid "Page Template"
+msgstr "Inläggstyper"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:92
+#, fuzzy
+#| msgid "Placement"
+msgid "Attachment"
+msgstr "Placering"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:93
+#, fuzzy
+#| msgid "Taxonomies"
+msgid "Taxonomy Term"
+msgstr "Taxonomies"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:146
+#, fuzzy
+#| msgid "Company"
+msgid "and"
+msgstr "Företag"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_location.php:161
+msgid "Add rule group"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:25
+msgid "Order No."
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:26
+msgid "Field groups are created in order <br />from lowest to highest"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:42
+#, fuzzy
+#| msgid "Menu position"
+msgid "Position"
+msgstr "Menyposition"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:52
+msgid "High (after title)"
+msgstr "Efter titeln"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:53
+#, fuzzy
+#| msgid "Above footer content"
+msgid "Normal (after content)"
+msgstr "Ovanför footerinnehåll"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:54
+msgid "Side"
+msgstr "Högerpanel"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:64
+msgid "Style"
+msgstr "Stil"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:74
+msgid "Seamless (no metabox)"
+msgstr "Sömlös (Ingen box)"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:75
+msgid "Standard (WP metabox)"
+msgstr "Standard (Med box)"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:84
+#, fuzzy
+#| msgid "Hide from sidebar menu"
+msgid "Hide on screen"
+msgstr "Dölj från sidebar-menyn"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:85
+msgid "<b>Select</b> items to <b>hide</b> them from the edit screen"
+msgstr "<b>Välj</b> objekt för att <b>dölja</b> dom för redigeringsvyn. "
+
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:86
+msgid ""
+"If multiple field groups appear on an edit screen, the first field group's "
+"options will be used. (the one with the lowest order number)"
+msgstr ""
+"Om flera fältgrupper används på samma skärm, används inställningarna för den "
+"först förekommande fältgruppen. "
+
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:96
+#, fuzzy
+#| msgid "Permalänk"
+msgid "Permalink"
+msgstr "Permalänk"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:97
+#, fuzzy
+#| msgid "Content editor"
+msgid "Content Editor"
+msgstr "Innehållsförfattare"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:100
+msgid "Discussion"
+msgstr "Diskussioner"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:103
+msgid "Slug"
+msgstr "Länk"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:105
+#, fuzzy
+#| msgid "Formats"
+msgid "Format"
+msgstr "Inläggsformat"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:107
+#: views/partials/blog/post-categories.blade.php:2
+msgid "Categories"
+msgstr "Kategorier"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:108
+#: views/partials/blog/post-tags.blade.php:2
+msgid "Tags"
+msgstr "Taggar"
+
+#: vendor/advanced-custom-fields/core/views/meta_box_options.php:109
+msgid "Send Trackbacks"
+msgstr "Spårning"
+
+#: vendor/helsingborg-stad/acf-export-manager/src/AcfExportManager.php:357
+msgid "Export with AcfExportManager"
+msgstr "Exportera med AcfExportManager verktyget. "
+
+#: vendor/helsingborg-stad/acf-export-manager/src/AcfExportManager.php:401
+#, php-format
+msgid "Exported %d fieldgroup(s)."
+msgstr "Exporterade %d fältgrupper."
+
+#: views/404.blade.php:22
+msgid "Error 404"
+msgstr "Felinformation"
+
+#: views/archive-event.blade.php:69
+msgctxt "Event archive"
+msgid "Date"
+msgstr "Datum"
+
+#: views/archive-event.blade.php:76
+msgctxt "Event archive"
+msgid "Location"
+msgstr "Plats"
+
+#: views/archive-event.blade.php:100 views/archive-listing.blade.php:94
+#: views/archive.blade.php:77 views/author.blade.php:50
+msgid "No posts to show"
+msgstr "Inga inlägg att visa"
+
+#: views/author.blade.php:34
+msgid "Posts by"
+msgstr "Inlägg av"
+
+#: views/partials/archive-filters.blade.php:19
+msgid "From"
+msgstr "Från"
+
+#: views/partials/archive-filters.blade.php:20
+msgid "From date"
+msgstr "Från datum"
+
+#: views/partials/archive-filters.blade.php:21
+msgid "To"
+msgstr "Till"
+
+#: views/partials/archive-filters.blade.php:22
+msgid "To date"
+msgstr "Till datum"
+
+#: views/partials/archive-filters.blade.php:42
+msgid "Clear filters"
+msgstr "Återställ filter"
+
+#: views/partials/author-box.blade.php:16
+#: views/partials/author-box.blade.php:20
+#: views/partials/author-box.blade.php:24
+#: views/partials/author-box.blade.php:28
+msgid "My profile on"
+msgstr "Min profil på"
+
+#: views/partials/blog/post-categories.blade.php:6
+msgid "No categories"
+msgstr "Inga kategorier"
+
+#: views/partials/blog/post-footer.blade.php:9
+#: views/partials/page-footer.blade.php:11
+msgid "Share the page"
+msgstr "Dela sidan"
+
+#: views/partials/blog/post-footer.blade.php:34
+#: views/partials/timestamps.blade.php:4
+msgid "Published by"
+msgstr "Publicerad av"
+
+#: views/partials/blog/post-tags.blade.php:8
+msgid "No tags"
+msgstr "Inga taggar"
+
+#: views/partials/blog/taxonomy-filters.blade.php:10
+msgid "Show all"
+msgstr "Visa alla"
+
+#: views/partials/header/default.blade.php:40
+msgid "Menu"
+msgstr "Meny"
+
+#: views/partials/header/jumbo.blade.php:30
+msgid "More"
+msgstr "Mer"
+
+#: views/partials/mobile-menu.blade.php:5
+msgid "What are you looking for?"
+msgstr "Vad letar du efter?"
+
+#: views/partials/search/google.blade.php:24
+#: views/partials/search/wp.blade.php:24
+msgid "Found no matching results on your search…"
+msgstr "Hittade inga matchande resultat för din sökning…"
+
+#: views/partials/social-share.blade.php:3
+#: views/partials/social-share.blade.php:5
+#: views/partials/social-share.blade.php:9
+#: views/partials/social-share.blade.php:11
+#: views/partials/social-share.blade.php:15
+#: views/partials/social-share.blade.php:17
+msgid "Share on"
+msgstr "Dela på"
+
+#: views/partials/timestamps.blade.php:42
+msgid "Last updated"
+msgstr "Senast uppdaterad"
+
+#: views/single-listing.blade.php:48
+msgid "Price"
+msgstr "Pris"
+
+#: views/single-listing.blade.php:61
+msgid "Attached files"
+msgstr "Bifogade filer"
+
+#: views/templates/master.blade.php:54
+msgid "Jump to the main menu"
+msgstr "Hoppa till huvudmenyn"
+
+#: views/templates/master.blade.php:55
+msgid "Jump to the main content"
+msgstr "Hoppa till innehåll"
+
+#. Theme Name of the plugin/theme
+msgid "Municipio"
+msgstr "Municipio"
+
+#. Theme URI of the plugin/theme
+msgid "https://github.com/helsingborg-stad/Municipio"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A bootstrap theme for creating municipality sites. Works veary webb with "
+"Modularity Plugin."
+msgstr "Ett bootstrap-tema för att skapa hemsidor för kommuner."
+
+#. Author of the plugin/theme
+msgid ""
+"Sebastian Thulin @ Helsingborg stad, Kristoffer Svanmark @ Lexicon IT-Konsult"
+msgstr ""
+"Sebastian Thulin @ Helsingborg stad, Kristoffer Svanmark @ Lexicon IT-Konsult"
+
+#. Author URI of the plugin/theme
+msgid "http://www.helsingborg.se"
+msgstr "http://www.helsingborg.se"
+
+#~ msgid "Navigation settings"
+#~ msgstr "Navigationsinställningar"
+
+#~ msgid "Default post types"
+#~ msgstr "Standardinläggstyper"
+
+#~ msgid "standard"
+#~ msgstr "standard"
+
+#~ msgid "The page could not be found"
+#~ msgstr "Sidan kunde inte hittas"
+
+#~ msgid "Back to home"
+#~ msgstr "Tillbaka till startsidan"
+
+#~ msgid "Go back"
+#~ msgstr "Gå bakåt"
+
+#~ msgid "gray"
+#~ msgstr "grå"
+
+#~ msgid "Gray"
+#~ msgstr "Grå"
+
+#~ msgid "Green"
+#~ msgstr "Grön"
+
+#~ msgid "Purple"
+#~ msgstr "Lila"
+
+#~ msgid "Cookie consent"
+#~ msgstr "Cookie-medgivande"
+
+#~ msgid ""
+#~ "This website uses cookies to ensure you get the best experience on our "
+#~ "website."
+#~ msgstr ""
+#~ "Denna hemsida använder cookies för att erbjuda en så bra upplevelse som "
+#~ "möjligt för ditt besök."
+
+#~ msgid "Got it!"
+#~ msgstr "Jag förstår"
+
+#~ msgid "Custom CSS"
+#~ msgstr "Egen CSS"
+
+#~ msgid "Manage post types"
+#~ msgstr "Inläggstyper"
+
+#~ msgid "Manage taxonomies"
+#~ msgstr "Taxonomies"
+
+#~ msgid ""
+#~ "<span style=\\\"color: #ff0000;\\\">Once you have published a post type "
+#~ "the name cannot be changed!</span>"
+#~ msgstr ""
+#~ "<span style=\\\"color: #ff0000;\\\">När du har sparat inläggstypen kan "
+#~ "inte detta fält redigeras!</span>"
+
+#~ msgid "Only applies if you enable the option to publish your taxonomy."
+#~ msgstr "Används bara om du publicerar din taxonomy"
+
+#~ msgid "Connect to post type(s)"
+#~ msgstr "Koppla till inläggstyp(er)"
+
+#~ msgid "post"
+#~ msgstr "inlägg"
+
+#~ msgid "page"
+#~ msgstr "sida"
+
+#~ msgid "Offentlig"
+#~ msgstr "Offentlig"
+
+#~ msgid "Enable visitors to browse this taxonomy"
+#~ msgstr "Tillåt besökare att visa denna taxonomy"
+
+#~ msgid "Admin user interface"
+#~ msgstr "Administrationsgränssnitt"
+
+#~ msgid "Enable administration UI"
+#~ msgstr "Aktivera administrationsgränssnitt"
+
+#~ msgid "Available dynamic taxonomies"
+#~ msgstr "Tillgängliga dynamiska taxanomier"
+
+#~ msgid "Add taxonomy"
+#~ msgstr "Lägg till taxonomy"
+
+#~ msgid "Favicon"
+#~ msgstr "Favoritikoner"
+
+#~ msgid "favicon.ico (16x16px, 32x32px, 48x48px)"
+#~ msgstr "favicon.ico (16x16px, 32x32px, 48x48px)"
+
+#~ msgid "iOS, Android (152x152px)"
+#~ msgstr "iOS, Android (152x152px)"
+
+#~ msgid "IE10, Windows Metro (144x144px)"
+#~ msgstr "IE10, Windows Metro (144x144px)"
+
+#~ msgid "#FFFFFF"
+#~ msgstr "#FFFFFF"
+
+#~ msgid "Footer Icons"
+#~ msgstr "Sidfotsikoner"
+
+#~ msgid "null"
+#~ msgstr "null"
+
+#~ msgid "- Select -"
+#~ msgstr "- Välj -"
+
+#~ msgid "Footer logotype"
+#~ msgstr "Logotyp i sidfot"
+
+#~ msgid "Google Analytics"
+#~ msgstr "Google Analytics"
+
+#~ msgid "Google Translate"
+#~ msgstr "Google Translate"
+
+#~ msgid "text"
+#~ msgstr "text"
+
+#~ msgid "Header logotype"
+#~ msgstr "Logotyp i sidhuvud"
+
+#~ msgid "Header tagline"
+#~ msgstr "Slogan i sidhuvud"
+
+#~ msgid "business"
+#~ msgstr "business"
+
+#~ msgid "Timestamp"
+#~ msgstr "Tidstämplar"
+
+#~ msgid "Pages"
+#~ msgstr "Sidor"
+
+#~ msgid "Primary navigation"
+#~ msgstr "Huvudmeny"
+
+#~ msgid "Enable primary navigation"
+#~ msgstr "Aktivera huvudmeny"
+
+#~ msgid "auto"
+#~ msgstr "auto"
+
+#~ msgid "Yes, display sub-menus as dropdowns"
+#~ msgstr "Ja, visa submenyer som dropdowns"
+
+#~ msgid ""
+#~ "When \\\"dropdown sub-menus\\\" is inacticated only the top level menu "
+#~ "items will be displayed in the main menu. To display the submenu items in "
+#~ "the sidebar menu you should set the \\\"secondary menu\\\" settings to \\"
+#~ "\"Act as sub menu to the primary menu\\\"."
+#~ msgstr ""
+#~ "När \\”dropdown submenyer\\” är inaktiverade kommer bara den första nivån "
+#~ "av menyval visas i huvudmenyn. För att aktivera submenyn i vänster-"
+#~ "sidebaren bör du ställa in \\”sekundär meny\\” till \\”Agera submeny till "
+#~ "huvudmenyn\\”"
+
+#~ msgid "justify"
+#~ msgstr "justify"
+
+#~ msgid "Display search"
+#~ msgstr "Visa sök"
+
+#~ msgid "In front-page hero/slider"
+#~ msgstr "I headern på startsidan"
+
+#~ msgid "In the header of all pages but front page"
+#~ msgstr "I headern på alla sidor utom startsidan"
+
+#~ msgid "In the header of all pages"
+#~ msgstr "I headern på alla sidor"
+
+#~ msgid "Icon in main menu"
+#~ msgstr "Ikon i huvudmenyn"
+
+#~ msgid "Sök"
+#~ msgstr "Sök"
+
+#~ msgid "Google Search"
+#~ msgstr "Google Sök"
+
+#~ msgid "Sub navigation"
+#~ msgstr "Sekundär meny"
+
+#~ msgid "sub"
+#~ msgstr "sub"
+
+#~ msgid "Author picture"
+#~ msgstr "Bild på författare"
+
+#~ msgid "Picture that show in author information for posts published by you"
+#~ msgstr "Bild som kan visas i byline."
+
+#~ msgid "Contact widget"
+#~ msgstr "Kontaktwidget"
+
+#~ msgid "Contacts"
+#~ msgstr "Kontakter"
+
+#~ msgid "Submit"
+#~ msgstr "Skicka"
+
+#~ msgid "Theme options"
+#~ msgstr "Temainställningar"
+
+#~ msgid "Custom CSS Editor"
+#~ msgstr "CSS Editor"
+
+#~ msgid "Content area"
+#~ msgstr "Innehållsarea"
+
+#~ msgid "No posts found…"
+#~ msgstr "Inga inlägg hittades…"
+
+#~ msgid "https://github.com/helsingborg-stad/Bootstrap-Theme/"
+#~ msgstr "https://github.com/helsingborg-stad/Bootstrap-Theme/"
+
+#~ msgid "Feed post style"
+#~ msgstr "Stil på inlägg"
+
+#~ msgid "Do not show the date"
+#~ msgstr "Visa inte datum"
+
+#~ msgid "Time only"
+#~ msgstr "Bara tid"
+
+#~ msgid "Date and time"
+#~ msgstr "Datum och tid"
+
+#~ msgid "Only one category will be shown even if multiple existing."
+#~ msgstr "Bara en kategori kommer att visas även om det finns flera."
+
+#~ msgid "Show blog post category"
+#~ msgstr "Visa kategori"
+
+#~ msgid "Blog post display settings"
+#~ msgstr "Visningsinställningar för blogginlägg"
+
+#~ msgid "Show post author"
+#~ msgstr "Visa författare"
+
+#~ msgid "Show author's profile picture"
+#~ msgstr "Visa bild på författare"
+
+#~ msgid "Show post tags"
+#~ msgstr "Visa taggar"
+
+#~ msgid "Show post categories"
+#~ msgstr "Visa kategorier"
+
+#~ msgid "left"
+#~ msgstr "vänster"
+
+#~ msgid "Blog"
+#~ msgstr "Blogg"
+
+#~ msgid "my-first-custom-pos"
+#~ msgstr "min-forsta-post-typ"
+
+#~ msgid "henriks-post-typdaw"
+#~ msgstr "henriks-post-typ"
+
+#~ msgid "Set to -1 to disable depth limit"
+#~ msgstr "Sätt till -1 för att inaktivera djup"
+
+#~ msgid "Label text"
+#~ msgstr "Märkning"
+
+#~ msgid "Button text"
+#~ msgstr "Knapptext"
+
+#~ msgid "archive"
+#~ msgstr "archive"
+
+#~ msgid "collapsed"
+#~ msgstr "infälld"
