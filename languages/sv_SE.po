@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Municipio\n"
 "POT-Creation-Date: 2017-09-01 15:47+0200\n"
-"PO-Revision-Date: 2017-09-01 15:49+0200\n"
+"PO-Revision-Date: 2017-10-02 14:59+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: sv_SE\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.3\n"
+"X-Generator: Poedit 2.0.4\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -1067,7 +1067,7 @@ msgstr "Telefonnummer"
 #: library/AcfFields/php/widget-contact.php:79
 #: vendor/advanced-custom-fields/core/fields/email.php:19
 msgid "Email"
-msgstr "Epost"
+msgstr "E-post"
 
 #: library/AcfFields/php/widget-contact.php:98
 msgid "Address"
@@ -1804,10 +1804,8 @@ msgstr ""
 
 #: vendor/advanced-custom-fields/core/controllers/addons.php:137
 #: vendor/advanced-custom-fields/core/controllers/field_groups.php:436
-#, fuzzy
-#| msgid "Email"
 msgid "Gallery Field"
-msgstr "Epost"
+msgstr "E-post"
 
 #: vendor/advanced-custom-fields/core/controllers/addons.php:138
 msgid "Create image galleries in a simple and intuitive interface!"
@@ -2335,10 +2333,8 @@ msgid "User Field"
 msgstr "Egna taxonomies"
 
 #: vendor/advanced-custom-fields/core/controllers/field_groups.php:340
-#, fuzzy
-#| msgid "Email"
 msgid "Email Field"
-msgstr "Epost"
+msgstr "E-post"
 
 #: vendor/advanced-custom-fields/core/controllers/field_groups.php:341
 msgid "Password Field"
