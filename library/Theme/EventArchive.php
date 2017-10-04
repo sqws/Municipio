@@ -22,6 +22,7 @@ class EventArchive extends Archive
         if ($this->db->get_var("SHOW TABLES LIKE '" . $this->db_table . "'") !== null) {
             add_action('pre_get_posts', array($this, 'filterEvents'), 100);
         }
+
     }
 
     /**
@@ -29,39 +30,59 @@ class EventArchive extends Archive
      * @param  object $query object WP Query
      */
     public function filterEvents($query)
-    {
-        if (is_admin() || ! is_post_type_archive($this->eventPostType)) {
-            return $query;
+    {   
+        if ( ! is_admin() || is_post_type_archive($this->eventPostType) || wp_doing_ajax()) {
+
+            $query->set('posts_per_page', 50);
+
+            add_filter('posts_fields', array($this, 'eventFilterSelect'));
+            add_filter('posts_join', array($this, 'eventFilterJoin'));
+            add_filter('posts_where', array($this, 'eventFilterWhere'), 10, 2);
+            add_filter('posts_groupby', array($this, 'eventFilterGroupBy'));
+            add_filter('posts_orderby', array($this, 'eventFilterOrderBy'));
+
         }
-
-        $query->set('posts_per_page', 50);
-
-        add_filter('posts_fields', array($this, 'eventFilterSelect'));
-        add_filter('posts_join', array($this, 'eventFilterJoin'));
-        add_filter('posts_where', array($this, 'eventFilterWhere'), 10, 2);
-        add_filter('posts_groupby', array($this, 'eventFilterGroupBy'));
-        add_filter('posts_orderby', array($this, 'eventFilterOrderBy'));
 
         return $query;
     }
 
     public function getRenderedArchivePosts(){
 
-        $getParams = $_GET['archiveGet'];
-        
-        $args = array(
-            'post_type' => $this->eventPostType,
-	    );
+        parse_str($_GET['archiveGet'], $getArray);
 
-        $loop = $this->filterEvents(new \WP_Query($args));
+        $_GET['from'] = (array_key_exists('from',$getArray)) ? $getArray['from'] : '';
+        $_GET['s'] = (array_key_exists('s',$getArray)) ? $getArray['s'] : '';
+        $_GET['to'] = (array_key_exists('to',$getArray)) ? $getArray['to'] : '';
+        $_GET['filter'] = (array_key_exists('filter',$getArray)) ? $getArray['filter'] : '';
+
+        $params = array(
+            'post_type'         => 'event',
+            's'                 => $getArray['s'],
+            'posts_per_page'    => 50,
+        );
+
+        if(array_key_exists('filter', $getArray) && !empty($getArray['filter'])){
+            $params['tax_query'] = array(
+                    array(
+                        'taxonomy'  => 'event_categories',
+                        'field'     => 'slug',
+                        'terms'      => $getArray['filter']['event_categories']
+                    )
+                );
+        }
+        
+        $WpQuery = new \WP_Query($params);
+        $filteredQuery = $this->filterEvents($WpQuery);
+
         $items = [];
-        if ($loop->have_posts()) {
-            while ($loop->have_posts()) {
-                $loop->the_post();
+
+        if ($filteredQuery->have_posts()) {
+            while ($filteredQuery->have_posts()) {
+                $filteredQuery->the_post();
                 $items[] = $this->getRenderedItem();
             }
         }
-        
+
         echo json_encode($items);
         wp_die();
     }

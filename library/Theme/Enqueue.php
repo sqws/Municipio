@@ -128,16 +128,6 @@ class Enqueue
      */
     public function script()
     {   
-
-        if(!is_admin()){
-            global $wp_query;
-            $queryVars = $wp_query->query_vars;
-
-        } else {
-            $queryVars = '';
-        }
-
-
         //Load from local developement enviroment
         if ((defined('DEV_MODE') && DEV_MODE === true) || (isset($_GET['DEV_MODE']) && $_GET['DEV_MODE'] === 'true')) {
             wp_register_script($this->defaultPrimeName, '//hbgprime.dev/dist/js/hbg-prime.min.js', '', '1.0.0', true);
@@ -183,8 +173,8 @@ class Enqueue
             'printbreak' => array(
                 'tooltip' => __('Insert Print Page Break tag', 'municipio')
             ),
-            'queryVars' => $queryVars
         ));
+
         wp_enqueue_script('municipio');
 
         //Load polyfill SAAS
