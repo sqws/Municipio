@@ -54,21 +54,19 @@
             @endif
 
             <div class="grid">
+                <?php $archiveObj = New \Municipio\Theme\EventArchive ?>
                 @if (have_posts())
-                    <?php $archiveObj = New \Municipio\Theme\EventArchive ?>
                     <?php $postNum = 0; ?>
                     <ul class="grid-md-12 event-archive">
                         @while(have_posts())
                             {!! the_post() !!}
                             <?php global $post; ?>
-                            <?php $archiveObj->getRenderedItem(); ?>
+                            <?php echo $archiveObj->getRenderedItem(); ?>
                             <?php $postNum++; ?>
                         @endwhile
                     </ul>
                 @else
-                    <div class="grid-xs-12">
-                        <div class="notice info pricon pricon-info-o pricon-space-right"><?php _e('No posts to show', 'municipio'); ?>…</div>
-                    </div>
+                    <?php echo $archiveObj->getRenderedNoEvent(); ?>
                 @endif
             </div>
 
@@ -79,13 +77,16 @@
                 </div>
             @endif
 
-            <div class="grid">
-                <div class="grid-sm-12 text-center">
+            <div class="grid pagination">
+                <div class="grid-sm-12 text-center type-list">
                     {!!
                         paginate_links(array(
                             'type' => 'list'
                         ))
                     !!}
+                </div>
+                <div class="grid-sm-12 text-center type-loadmore" style="display:none;">
+                    <div class="o-button"><?php echo _x('Show more events', 'Event archive', 'municipio'); ?></div>
                 </div>
             </div>
         </div>

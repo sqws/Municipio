@@ -206,6 +206,20 @@ class Template
         echo $blade->view()->make($view, $data)->render();
     }
 
+    
+    /**
+     * Get rendered view
+     * @param  string $view The view path
+     * @return void
+     */
+    public function getRendered($view, $data = array())
+    {
+        $data = apply_filters('Municipio/blade/data', $data);
+
+        $blade = new Blade($this->VIEWS_PATHS, $this->CACHE_PATH);
+        return $blade->view()->make($view, $data)->render();
+    }
+
     public function addTemplateFilters()
     {
         $types = array(

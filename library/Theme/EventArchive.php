@@ -7,6 +7,7 @@ class EventArchive extends Archive
 
     private $eventPostType = "event";
     private $dbTable;
+    private $postPerPage = 50;
 
     public function __construct()
     {
@@ -17,6 +18,9 @@ class EventArchive extends Archive
 
         add_action('wp_ajax_nopriv_getRenderedArchivePosts', array($this,'getRenderedArchivePosts'));
         add_action('wp_ajax_getRenderedArchivePosts', array($this,'getRenderedArchivePosts'));
+
+        add_action('wp_ajax_nopriv_getPagesLeft', array($this,'getPagesLeft'));
+        add_action('wp_ajax_getPagesLeft', array($this,'getPagesLeft'));
 
         //Run functions if table exists
         if ($this->db->get_var("SHOW TABLES LIKE '" . $this->db_table . "'") !== null) {
@@ -33,7 +37,7 @@ class EventArchive extends Archive
     {   
         if ( ! is_admin() || is_post_type_archive($this->eventPostType) || wp_doing_ajax()) {
 
-            $query->set('posts_per_page', 50);
+            $query->set('posts_per_page', $this->postPerPage);
 
             add_filter('posts_fields', array($this, 'eventFilterSelect'));
             add_filter('posts_join', array($this, 'eventFilterJoin'));
@@ -50,16 +54,24 @@ class EventArchive extends Archive
 
         parse_str($_GET['archiveGet'], $getArray);
 
-        $_GET['from'] = (array_key_exists('from',$getArray)) ? $getArray['from'] : '';
+        $date = date('Y-m-d');
+
+        if(array_key_exists('from', $getArray) && !empty($getArray['from'])){
+            $_GET['from'] = $getArray['from'];
+        } else {
+            $_GET['from'] = $date;
+        }
+
         $_GET['s'] = (array_key_exists('s',$getArray)) ? $getArray['s'] : '';
         $_GET['to'] = (array_key_exists('to',$getArray)) ? $getArray['to'] : '';
         $_GET['filter'] = (array_key_exists('filter',$getArray)) ? $getArray['filter'] : '';
-
+    
         $params = array(
             'post_type'         => 'event',
             's'                 => $getArray['s'],
-            'posts_per_page'    => 50,
+            'posts_per_page'    => $this->postPerPage,
         );
+
 
         if(array_key_exists('filter', $getArray) && !empty($getArray['filter'])){
             $params['tax_query'] = array(
@@ -70,20 +82,40 @@ class EventArchive extends Archive
                     )
                 );
         }
+
+        $page = 0;
+
+        if(array_key_exists('page', $getArray) && !empty($getArray['page'])){
+            $page = intval($getArray['page']);
+            $params['paged'] = $page;
+        }
         
         $WpQuery = new \WP_Query($params);
         $filteredQuery = $this->filterEvents($WpQuery);
+        $maxPages = $filteredQuery->max_num_pages;
+        $pagesLeft = $maxPages - $page;
 
-        $items = [];
+        $data = array(
+            'items' => array(),
+            'pagesLeft' => 1,
+        );
 
         if ($filteredQuery->have_posts()) {
             while ($filteredQuery->have_posts()) {
                 $filteredQuery->the_post();
-                $items[] = $this->getRenderedItem();
+                $data['items'][] = $this->getRenderedItem();
             }
+            wp_reset_postdata();
+        } else {
+            $data['items'][] = $this->getRenderedNoEvent();
         }
 
-        echo json_encode($items);
+        if($pagesLeft < 2){
+            $data['pagesLeft'] = 0;
+        }
+
+        echo json_encode($data);
+
         wp_die();
     }
 
@@ -111,7 +143,18 @@ class EventArchive extends Archive
         $view = \Municipio\Helper\Template::locateTemplate('item', array(get_template_directory().'/views/partials/archive/event/'));
         $view = $template->cleanViewPath($view);
 
-        $rendered = $template->render($view, $data);
+        $rendered = $template->getRendered($view, $data);
+
+        return $rendered;
+    }
+
+    public function getRenderedNoEvent() {
+
+        $template = new \Municipio\Template;
+        $view = \Municipio\Helper\Template::locateTemplate('no-events', array(get_template_directory().'/views/partials/archive/event/'));
+        $view = $template->cleanViewPath($view);
+
+        $rendered = $template->getRendered($view, $data);
 
         return $rendered;
     }

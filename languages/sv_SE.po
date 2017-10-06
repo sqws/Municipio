@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Municipio\n"
-"POT-Creation-Date: 2017-09-01 15:47+0200\n"
-"PO-Revision-Date: 2017-09-01 15:49+0200\n"
+"POT-Creation-Date: 2017-10-06 16:03+0200\n"
+"PO-Revision-Date: 2017-10-06 16:03+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: sv_SE\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.3\n"
+"X-Generator: Poedit 2.0.4\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -1116,7 +1116,7 @@ msgid "Content"
 msgstr "Innehåll"
 
 #: library/Admin/Options/Theme.php:52 library/Admin/Options/Theme.php:53
-#: library/Theme/Sidebars.php:81
+#: library/Theme/Sidebars.php:84
 msgid "Footer"
 msgstr "Sidfot"
 
@@ -1362,6 +1362,18 @@ msgstr "Inga matchande filter hittades…"
 msgid "Insert Print Page Break tag"
 msgstr "Infoga sidbrytning för utskrift"
 
+#: library/Theme/EventArchive.php:130
+#: views/partials/archive/event/itemold.blade.php:7
+msgctxt "Event archive"
+msgid "Date"
+msgstr "Datum"
+
+#: library/Theme/EventArchive.php:133
+#: views/partials/archive/event/itemold.blade.php:14
+msgctxt "Event archive"
+msgid "Location"
+msgstr "Plats"
+
 #: library/Theme/General.php:156
 msgid "Print"
 msgstr "Skriv ut"
@@ -1386,80 +1398,80 @@ msgstr "Sidomeny"
 msgid "Home"
 msgstr "Hem"
 
-#: library/Theme/Sidebars.php:82
+#: library/Theme/Sidebars.php:85
 msgid "The footer area"
 msgstr "Footer-arean"
 
-#: library/Theme/Sidebars.php:94
+#: library/Theme/Sidebars.php:97
 msgid "Hero"
 msgstr "Under sidhuvud (Heroyta)"
 
-#: library/Theme/Sidebars.php:95
+#: library/Theme/Sidebars.php:98
 msgid "The hero area"
 msgstr "Hero-arean"
 
-#: library/Theme/Sidebars.php:107
+#: library/Theme/Sidebars.php:110
 msgid "Content area (above article)"
 msgstr "Innehållsarea (ovanför artikel)"
 
-#: library/Theme/Sidebars.php:108
+#: library/Theme/Sidebars.php:111
 msgid "The area above the content"
 msgstr "Arean ovanför huvudinnehållet"
 
-#: library/Theme/Sidebars.php:118
+#: library/Theme/Sidebars.php:121
 msgid "Content area (below article)"
 msgstr "Innehållsarea (nedanför artikel)"
 
-#: library/Theme/Sidebars.php:119
+#: library/Theme/Sidebars.php:122
 msgid "The area below the content"
 msgstr "Arean under innehållet"
 
-#: library/Theme/Sidebars.php:129
+#: library/Theme/Sidebars.php:132
 msgid "Main container bottom"
 msgstr "Under artikel"
 
-#: library/Theme/Sidebars.php:130
+#: library/Theme/Sidebars.php:133
 msgid "The area below the main container"
 msgstr "Arean under main container"
 
-#: library/Theme/Sidebars.php:140
+#: library/Theme/Sidebars.php:143
 msgid "Left sidebar"
 msgstr "Vänster sidofält (övre sektion)"
 
-#: library/Theme/Sidebars.php:141
+#: library/Theme/Sidebars.php:144
 msgid "The left sidebar area"
 msgstr "Sidebar till vänster"
 
-#: library/Theme/Sidebars.php:153
+#: library/Theme/Sidebars.php:156
 msgid "Left sidebar bottom"
 msgstr "Vänster sidofält (undre sektion)"
 
-#: library/Theme/Sidebars.php:154
+#: library/Theme/Sidebars.php:157
 msgid "The area below the left sidebar content"
 msgstr "Sidebar vänster botten"
 
-#: library/Theme/Sidebars.php:166
+#: library/Theme/Sidebars.php:169
 msgid "Right sidebar"
 msgstr "Höger sidofält"
 
-#: library/Theme/Sidebars.php:167
+#: library/Theme/Sidebars.php:170
 msgid "The right sidebar area"
 msgstr "Sidebar till höger"
 
-#: library/Theme/Sidebars.php:179
+#: library/Theme/Sidebars.php:182
 msgid "Top sidebar (full-width)"
 msgstr "Under sidhuvud (täcker hela fönstrets bredd)"
 
-#: library/Theme/Sidebars.php:180
+#: library/Theme/Sidebars.php:183
 #, php-format
 msgid "Sidebar that sits below the hero, takes up 100% of the widht."
 msgstr ""
 
-#: library/Theme/Sidebars.php:192
+#: library/Theme/Sidebars.php:195
 msgid "Bottom sidebar (full-width)"
 msgstr "Ovanför sidfot (täcker hela fönstrets bredd)"
 
-#: library/Theme/Sidebars.php:193
+#: library/Theme/Sidebars.php:196
 #, php-format
 msgid "Sidebar that sits just before the footer, takes up 100% of the widht."
 msgstr ""
@@ -1650,125 +1662,126 @@ msgid ""
 "ticket on the %splugin forum%s, citing the errors listed above. "
 msgstr ""
 
-#: vendor/advanced-custom-fields/acf.php:509
-msgid "Field&nbsp;Groups"
-msgstr "Fältgrupper"
-
-#: vendor/advanced-custom-fields/acf.php:510
+#: vendor/advanced-custom-fields/acf.php:51
+#: vendor/advanced-custom-fields/acf.php:530
 #: vendor/advanced-custom-fields/core/controllers/field_groups.php:213
 #, fuzzy
 #| msgid "Custom Taxonomies"
 msgid "Advanced Custom Fields"
 msgstr "Egna taxonomies"
 
-#: vendor/advanced-custom-fields/acf.php:511
+#: vendor/advanced-custom-fields/acf.php:529
+msgid "Field&nbsp;Groups"
+msgstr "Fältgrupper"
+
+#: vendor/advanced-custom-fields/acf.php:531
 msgid "Add New"
 msgstr "Skapa ny"
 
-#: vendor/advanced-custom-fields/acf.php:512
+#: vendor/advanced-custom-fields/acf.php:532
 #, fuzzy
 #| msgid "New Field Group"
 msgid "Add New Field Group"
 msgstr "Ny fältgrupp"
 
-#: vendor/advanced-custom-fields/acf.php:513
+#: vendor/advanced-custom-fields/acf.php:533
 msgid "Edit Field Group"
 msgstr "Redigera fältgrupp"
 
-#: vendor/advanced-custom-fields/acf.php:514
+#: vendor/advanced-custom-fields/acf.php:534
 msgid "New Field Group"
 msgstr "Ny fältgrupp"
 
-#: vendor/advanced-custom-fields/acf.php:515
+#: vendor/advanced-custom-fields/acf.php:535
 msgid "View Field Group"
 msgstr "Visa fältgrupp"
 
-#: vendor/advanced-custom-fields/acf.php:516
+#: vendor/advanced-custom-fields/acf.php:536
 msgid "Search Field Groups"
 msgstr "Sök efter fältgrupp"
 
-#: vendor/advanced-custom-fields/acf.php:517
+#: vendor/advanced-custom-fields/acf.php:537
 msgid "No Field Groups found"
 msgstr "Inga fältgrupper hittades"
 
-#: vendor/advanced-custom-fields/acf.php:518
+#: vendor/advanced-custom-fields/acf.php:538
 msgid "No Field Groups found in Trash"
 msgstr "Inga fältgrupper hittades i papperskorgen"
 
-#: vendor/advanced-custom-fields/acf.php:603
+#: vendor/advanced-custom-fields/acf.php:623
 #: vendor/advanced-custom-fields/core/views/meta_box_options.php:99
 #, fuzzy
 #| msgid "Custom Taxonomies"
 msgid "Custom Fields"
 msgstr "Egna taxonomies"
 
-#: vendor/advanced-custom-fields/acf.php:621
-#: vendor/advanced-custom-fields/acf.php:624
+#: vendor/advanced-custom-fields/acf.php:641
+#: vendor/advanced-custom-fields/acf.php:644
 #, fuzzy
 #| msgid "Date published"
 msgid "Field group updated."
 msgstr "Publiceringsdatum"
 
-#: vendor/advanced-custom-fields/acf.php:622
+#: vendor/advanced-custom-fields/acf.php:642
 #, fuzzy
 #| msgid "Date updated"
 msgid "Custom field updated."
 msgstr "Senast uppdaterad"
 
-#: vendor/advanced-custom-fields/acf.php:623
+#: vendor/advanced-custom-fields/acf.php:643
 #, fuzzy
 #| msgid "Date updated"
 msgid "Custom field deleted."
 msgstr "Senast uppdaterad"
 
-#: vendor/advanced-custom-fields/acf.php:626
+#: vendor/advanced-custom-fields/acf.php:646
 #, php-format
 msgid "Field group restored to revision from %s"
 msgstr ""
 
-#: vendor/advanced-custom-fields/acf.php:627
+#: vendor/advanced-custom-fields/acf.php:647
 #, fuzzy
 #| msgid "Date published"
 msgid "Field group published."
 msgstr "Publiceringsdatum"
 
-#: vendor/advanced-custom-fields/acf.php:628
+#: vendor/advanced-custom-fields/acf.php:648
 #, fuzzy
 #| msgid "Date published"
 msgid "Field group saved."
 msgstr "Publiceringsdatum"
 
-#: vendor/advanced-custom-fields/acf.php:629
+#: vendor/advanced-custom-fields/acf.php:649
 #, fuzzy
 #| msgid "Date published"
 msgid "Field group submitted."
 msgstr "Publiceringsdatum"
 
-#: vendor/advanced-custom-fields/acf.php:630
+#: vendor/advanced-custom-fields/acf.php:650
 #, fuzzy
 #| msgid "Date published"
 msgid "Field group scheduled for."
 msgstr "Publiceringsdatum"
 
-#: vendor/advanced-custom-fields/acf.php:631
+#: vendor/advanced-custom-fields/acf.php:651
 #, fuzzy
 #| msgid "Date published"
 msgid "Field group draft updated."
 msgstr "Publiceringsdatum"
 
-#: vendor/advanced-custom-fields/acf.php:766
+#: vendor/advanced-custom-fields/acf.php:786
 msgid "Thumbnail"
 msgstr ""
 
-#: vendor/advanced-custom-fields/acf.php:767
+#: vendor/advanced-custom-fields/acf.php:787
 msgid "Medium"
 msgstr ""
 
-#: vendor/advanced-custom-fields/acf.php:768
+#: vendor/advanced-custom-fields/acf.php:788
 msgid "Large"
 msgstr ""
 
-#: vendor/advanced-custom-fields/acf.php:769
+#: vendor/advanced-custom-fields/acf.php:789
 msgid "Full"
 msgstr "Fullständig"
 
@@ -2559,6 +2572,10 @@ msgstr ""
 
 #: vendor/advanced-custom-fields/core/controllers/upgrade.php:750
 msgid "Moving user custom fields from wp_options to wp_usermeta"
+msgstr ""
+
+#: vendor/advanced-custom-fields/core/early-access.php:340
+msgid "(Early access enabled)"
 msgstr ""
 
 #: vendor/advanced-custom-fields/core/fields/_base.php:124
@@ -3634,11 +3651,11 @@ msgstr "Taggar"
 msgid "Send Trackbacks"
 msgstr "Spårning"
 
-#: vendor/helsingborg-stad/acf-export-manager/src/AcfExportManager.php:357
+#: vendor/helsingborg-stad/acf-export-manager/src/AcfExportManager.php:362
 msgid "Export with AcfExportManager"
 msgstr "Exportera med AcfExportManager verktyget. "
 
-#: vendor/helsingborg-stad/acf-export-manager/src/AcfExportManager.php:401
+#: vendor/helsingborg-stad/acf-export-manager/src/AcfExportManager.php:406
 #, php-format
 msgid "Exported %d fieldgroup(s)."
 msgstr "Exporterade %d fältgrupper."
@@ -3647,18 +3664,13 @@ msgstr "Exporterade %d fältgrupper."
 msgid "Error 404"
 msgstr "Felinformation"
 
-#: views/archive-event.blade.php:69
+#: views/archive-event.blade.php:89
 msgctxt "Event archive"
-msgid "Date"
-msgstr "Datum"
+msgid "Show more events"
+msgstr "Visa fler evenemang"
 
-#: views/archive-event.blade.php:76
-msgctxt "Event archive"
-msgid "Location"
-msgstr "Plats"
-
-#: views/archive-event.blade.php:100 views/archive-listing.blade.php:94
-#: views/archive.blade.php:77 views/author.blade.php:50
+#: views/archive-listing.blade.php:94 views/archive.blade.php:77
+#: views/author.blade.php:50 views/partials/archive/event/no-events.blade.php:3
 msgid "No posts to show"
 msgstr "Inga inlägg att visa"
 
@@ -3784,6 +3796,10 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "http://www.helsingborg.se"
 msgstr "http://www.helsingborg.se"
+
+#~ msgctxt "Event archive"
+#~ msgid "See More"
+#~ msgstr "Mer"
 
 #~ msgid "Navigation settings"
 #~ msgstr "Navigationsinställningar"
