@@ -372,27 +372,27 @@ class Archives
                     'toggle' => 0,
                 );
 
-                $fieldArgs['fields'][] = array(
-                    'key' => 'field_59cbb931d56ec' . md5($posttype),
-                    'label' => 'Fetch options',
-                    'name' => 'archive_' . sanitize_title($posttype) . '_post_filters_header',
-                    'type' => 'checkbox',
-                    'instructions' => '',
-                    'required' => 0,
-                    'conditional_logic' => 0,
-                    'wrapper' => array (
-                        'width' => '',
-                        'class' => '',
-                        'id' => '',
-                    ),
-                    'choices' => array (
-                        'async' => 'Load async'
-                    ),
-                    'default_value' => array (
-                    ),
-                    'layout' => 'horizontal',
-                    'toggle' => 0,
-                );
+                // $fieldArgs['fields'][] = array(
+                //     'key' => 'field_59cbb931d56ec' . md5($posttype),
+                //     'label' => 'Fetch options',
+                //     'name' => 'archive_' . sanitize_title($posttype) . '_post_filters_header',
+                //     'type' => 'checkbox',
+                //     'instructions' => '',
+                //     'required' => 0,
+                //     'conditional_logic' => 0,
+                //     'wrapper' => array (
+                //         'width' => '',
+                //         'class' => '',
+                //         'id' => '',
+                //     ),
+                //     'choices' => array (
+                //         'async' => 'Load async'
+                //     ),
+                //     'default_value' => array (
+                //     ),
+                //     'layout' => 'horizontal',
+                //     'toggle' => 0,
+                // );
 
                 // Post filters sidebar
                 if (count($taxonomies) > 0) {

@@ -7,7 +7,7 @@ class EventArchive extends Archive
 
     private $eventPostType = "event";
     private $dbTable;
-    private $postPerPage = 50;
+    private $postPerPage = 20;
 
     public function __construct()
     {
@@ -126,9 +126,10 @@ class EventArchive extends Archive
         $location = get_field('location');
 
         $data = ['href' => esc_url(add_query_arg('date', preg_replace('/\D/', '', $post->start_date), get_permalink())),
-            'title' => get_the_title(), 
+            'title' => get_the_title(),
             'dateLang' => _x('Date', 'Event archive', 'municipio'), 
-            'date' => \Municipio\Helper\Event::formatEventDate($post->start_date, $post->end_date), 
+            'date' => \Municipio\Helper\Event::formatEventDate($post->start_date, $post->end_date),
+            'terms' => get_the_terms($post->ID, 'event_categories'),
             'hasLocation' => !empty($location['title']), 
             'locationLang' => _x('Location', 'Event archive','municipio'), 
             'locationTitle' => $location['title'], 
@@ -140,7 +141,8 @@ class EventArchive extends Archive
         ];
 
         $template = new \Municipio\Template;
-        $view = \Municipio\Helper\Template::locateTemplate('item', array(get_template_directory().'/views/partials/archive/event/'));
+        $view = \Municipio\Helper\Template::locateTemplate('item', array(get_template_directory().'/views/partials/archive/event', get_stylesheet_directory().'/views/partials/archive/event'));
+
         $view = $template->cleanViewPath($view);
 
         $rendered = $template->getRendered($view, $data);
@@ -151,7 +153,7 @@ class EventArchive extends Archive
     public function getRenderedNoEvent() {
 
         $template = new \Municipio\Template;
-        $view = \Municipio\Helper\Template::locateTemplate('no-events', array(get_template_directory().'/views/partials/archive/event/'));
+        $view = \Municipio\Helper\Template::locateTemplate('no-events', array(get_template_directory().'/views/partials/archive/event/', get_stylesheet_directory().'/views/partials/archive/event'));
         $view = $template->cleanViewPath($view);
 
         $rendered = $template->getRendered($view, $data);
