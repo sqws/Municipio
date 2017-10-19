@@ -114,8 +114,8 @@ Muncipio.Ajax = Muncipio.Ajax || {};
 Muncipio.Ajax.ArchiveEvent = (function ($) {
 
     function Event() {
-        this.$eventArchive = $('.event-archive');
         this.isEventPage = $('body').hasClass('post-type-archive-event');
+        this.$eventArchive = {};
         this.params = '';
         this.$form = {};
         this.$loadMoreBtn = {};
@@ -125,6 +125,7 @@ Muncipio.Ajax.ArchiveEvent = (function ($) {
 
     Event.prototype.init = function() {
         if(this.isEventPage){
+            this.$eventArchive = $('.event-archive');
             $('.type-list').hide();
             $('.type-loadmore').show();
             this.actions();
@@ -172,7 +173,32 @@ Muncipio.Ajax.ArchiveEvent = (function ($) {
             action : 'getRenderedArchivePosts'
         };
 
+        this.$eventArchive.addClass('loading');
+
         $.ajax({
+            xhr: function() {
+                var xhr = new window.XMLHttpRequest();
+        
+                // Upload progress
+                xhr.upload.addEventListener("progress", function(evt){
+                    if (evt.lengthComputable) {
+                        var percentComplete = evt.loaded / evt.total;
+                        //Do something with upload progress
+                        console.log(percentComplete);
+                    }
+               }, false);
+        
+               // Download progress
+               xhr.addEventListener("progress", function(evt){
+                   if (evt.lengthComputable) {
+                       var percentComplete = evt.loaded / evt.total;
+                       // Do something with download progress
+                       console.log(percentComplete);
+                   }
+               }, false);
+        
+               return xhr;
+            },
             url: ajaxurl,
             data: data,
             type: 'get',
@@ -180,6 +206,7 @@ Muncipio.Ajax.ArchiveEvent = (function ($) {
                 var data = JSON.parse(response);
                 self.render(action, data.items);
                 self.checkLoadMore(data.pagesLeft);
+                self.$eventArchive.removeClass('loading');
             },
             error: function (error) {
                 console.log(error);
